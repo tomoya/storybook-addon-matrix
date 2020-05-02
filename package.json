@@ -4,5 +4,8 @@
   "description": "Storybook addon for rendering components with a matrix of props",
   "main": "dist/index.js",
   "author": "Tomoya Otake",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "3.8.3"
+  }
 }
