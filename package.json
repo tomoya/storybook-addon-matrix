@@ -20,6 +20,13 @@
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "2.5.0",
     "prettier": "2.0.5",
+    "react": "16.13.1",
     "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "@storybook/addons": "5.3.18"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
   }
 }
