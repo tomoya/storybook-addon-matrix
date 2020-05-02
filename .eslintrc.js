@@ -9,6 +9,13 @@ module.exports = {
     project: './tsconfig.json',
   },
   rules: {
+    'import/no-default-export': 'error',
+    'import/prefer-default-export': 'off',
+    '@typescript-eslint/prefer-optional-chain': 'error',
+    '@typescript-eslint/no-magic-numbers': [
+      'error',
+      { ignoreEnums: true, ignoreNumericLiteralTypes: true },
+    ],
     'prettier/prettier': [
       'error',
       {
