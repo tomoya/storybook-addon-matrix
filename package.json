@@ -1,0 +1,8 @@
+{
+  "name": "storybook-addon-react-matrix",
+  "version": "1.0.0",
+  "description": "Storybook addon for rendering components with a matrix of props",
+  "main": "dist/index.js",
+  "author": "Tomoya Otake",
+  "license": "MIT"
+}
