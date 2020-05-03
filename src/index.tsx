@@ -8,7 +8,9 @@ export const withMatrix = makeDecorator({
   skipIfNoParametersOrOptions: true,
   allowDeprecatedUsage: true,
   wrapper: (getStory, context, { parameters }) => {
-    const { parameters: { component } } = context;
+    const {
+      parameters: { component },
+    } = context;
     const { pattern } = parameters;
     const storyFn = getStory(context);
     const originalProps = storyFn.props;

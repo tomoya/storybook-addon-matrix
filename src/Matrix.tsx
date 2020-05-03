@@ -14,9 +14,7 @@ export const Matrix: React.FC<Props> = ({ component, propsPattern, originalProps
     const propsString = JSON.stringify(props);
     return (
       <div key={encodeURIComponent(propsString)}>
-        <pre>
-          {propsString}
-        </pre>
+        <pre>{propsString}</pre>
         <Component {...originalProps} {...props} />
       </div>
     );
