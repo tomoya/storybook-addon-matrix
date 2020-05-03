@@ -2,7 +2,7 @@ import * as React from 'react';
 import { createPropsCombinations } from './createPropsCombinations';
 
 type Props = {
-  Component: React.ReactNode;
+  Component: React.ElementType;
   propsPattern: any[];
   originalProps: React.Props<any>;
 };
