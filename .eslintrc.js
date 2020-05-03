@@ -22,6 +22,7 @@ module.exports = {
       'error',
       { ignoreEnums: true, ignoreNumericLiteralTypes: true },
     ],
+    'react/jsx-props-no-spreading': 'off',
     'prettier/prettier': [
       'error',
       {
