@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Box } from '../Box';
+import { Text } from '../Text';
 import { createPropsCombinations } from '../../createPropsCombinations';
 
 export type MatrixProps = {
@@ -14,9 +15,20 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
   return propsCombinations.map((props: React.Props<any>) => {
     const propsString = JSON.stringify(props);
     return (
-      <Box key={encodeURIComponent(propsString)}>
-        <pre>{propsString}</pre>
-        <Component {...originalProps} {...props} />
+      <Box
+        key={encodeURIComponent(propsString)}
+        border="1px solid #ddd"
+        m={2}
+        mb={3}
+        boxShadow="1px 1px 6px #eee"
+        borderRadius={3}
+      >
+        <Box bg="#eeeeee" p={2}>
+          <Text>{propsString}</Text>
+        </Box>
+        <Box m={2}>
+          <Component {...originalProps} {...props} />
+        </Box>
       </Box>
     );
   });
