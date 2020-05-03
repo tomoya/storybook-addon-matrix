@@ -3,7 +3,11 @@
   "description": "An example storybook for addon matrix",
   "version": "1.0.0",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "react": "16.13.1",
+    "styled-components": "5.1.0",
+    "styled-system": "5.1.5"
+  },
   "devDependencies": {
     "@babel/core": "7.9.6",
     "@storybook/addon-actions": "5.3.18",
@@ -13,8 +17,6 @@
     "@types/styled-components": "5.1.0",
     "@types/styled-system": "5.1.9",
     "babel-loader": "8.1.0",
-    "styled-components": "5.1.0",
-    "styled-system": "5.1.5",
     "ts-loader": "7.0.2"
   },
   "scripts": {
