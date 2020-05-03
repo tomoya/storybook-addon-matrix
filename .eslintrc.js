@@ -17,6 +17,12 @@ module.exports = {
   rules: {
     'import/no-default-export': 'error',
     'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: ['**/*.stories.tsx'],
+      },
+    ],
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/no-magic-numbers': [
       'error',
@@ -45,6 +51,12 @@ module.exports = {
       files: ['**/*.test.{ts,tsx}'],
       rules: {
         '@typescript-eslint/no-magic-numbers': 'off',
+      },
+    },
+    {
+      files: ['**/*.stories.tsx'],
+      rules: {
+        'import/no-default-export': 'off',
       },
     },
   ],

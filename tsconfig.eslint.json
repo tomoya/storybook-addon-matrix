@@ -4,5 +4,10 @@
     "noEmit": true,
     "allowJs": true
   },
-  "include": ["**/*"]
+  "include": ["**/*", "example/stories/**/*"],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "example/storybook-static"
+  ]
 }

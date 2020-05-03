@@ -3,5 +3,5 @@ module.exports = {
   testEnvironment: 'jest-environment-jsdom-fourteen',
   cacheDirectory: '.cache/jest',
   testMatch: ['**/*.test.ts?(x)'],
-  testPathIgnorePatterns: ['/node_modules/', '/dist/'],
+  testPathIgnorePatterns: ['/node_modules/', '/dist/', '/example/'],
 };

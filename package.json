@@ -27,14 +27,14 @@
     "jest": "25.5.4",
     "jest-environment-jsdom-fourteen": "1.0.1",
     "prettier": "2.0.5",
-    "react": "16.13.1",
     "ts-jest": "25.4.0",
     "typescript": "^3.8.3"
   },
   "dependencies": {
     "@storybook/addons": "5.3.18",
     "@types/js-combinatorics": "0.5.31",
-    "js-combinatorics": "0.5.5"
+    "js-combinatorics": "0.5.5",
+    "react": "16.13.1"
   },
   "peerDependencies": {
     "react": "^16.8.0"
