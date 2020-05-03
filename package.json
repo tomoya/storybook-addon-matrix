@@ -13,7 +13,7 @@
     "lint": "eslint --cache --ext .js,.ts,.tsx ./"
   },
   "devDependencies": {
-    "@types/jest": "^25.2.1",
+    "@types/jest": "25.2.1",
     "@typescript-eslint/eslint-plugin": "2.24.0",
     "@typescript-eslint/parser": "2.30.0",
     "eslint": "6.8.0",
@@ -29,7 +29,7 @@
     "jest-environment-jsdom-fourteen": "1.0.1",
     "prettier": "2.0.5",
     "ts-jest": "25.4.0",
-    "typescript": "^3.8.3"
+    "typescript": "3.8.3"
   },
   "dependencies": {
     "@storybook/addons": "5.3.18",
