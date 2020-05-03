@@ -9,6 +9,7 @@
   "scripts": {
     "prepublish": "yarn build",
     "build": "tsc",
+    "test": "jest",
     "lint": "eslint --cache --ext .js,.ts,.tsx ./"
   },
   "devDependencies": {
