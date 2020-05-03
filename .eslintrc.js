@@ -48,7 +48,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.test.{ts,tsx}'],
+      files: ['**/*.test.{ts,tsx}', '**/*.stories.tsx'],
       rules: {
         '@typescript-eslint/no-magic-numbers': 'off',
       },
