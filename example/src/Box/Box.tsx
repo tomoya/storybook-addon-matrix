@@ -1,7 +1,11 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { color } from 'styled-system';
+import { space, color, layout, LayoutProps, SpaceProps, ColorProps } from 'styled-system';
 
-export const Box: React.FC = styled.div`
+export type BoxProps = LayoutProps & SpaceProps & ColorProps;
+
+export const Box: React.FC<BoxProps> = styled.div`
   ${color}
+  ${space}
+  ${layout}
 `;
