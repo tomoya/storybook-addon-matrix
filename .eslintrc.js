@@ -1,12 +1,18 @@
 module.exports = {
   extends: [
     'airbnb-typescript',
+    'plugin:jest/recommended',
     'plugin:prettier/recommended',
     'prettier/react',
     'prettier/@typescript-eslint',
   ],
+  env: {
+    es6: true,
+    'jest/globals': true,
+    node: true,
+  },
   parserOptions: {
-    project: './tsconfig.json',
+    project: './tsconfig.eslint.json',
   },
   rules: {
     'import/no-default-export': 'error',
