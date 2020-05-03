@@ -1,0 +1,14 @@
+.cache/
+.git/
+.log/
+example/
+node_modules/
+src/
+.eslintcache
+.eslintignore
+.eslintrc.js
+.gitignore
+.jest.config.js
+tsconfig.eslint.json
+tsconfig.json
+yarn-error.log
