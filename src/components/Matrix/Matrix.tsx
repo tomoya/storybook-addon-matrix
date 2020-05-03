@@ -1,13 +1,13 @@
 import * as React from 'react';
-import { createPropsCombinations } from './createPropsCombinations';
+import { createPropsCombinations } from '../../createPropsCombinations';
 
-type Props = {
+export type MatrixProps = {
   component: React.ElementType;
   propsPattern: any[];
   originalProps: React.Props<any>;
 };
 
-export const Matrix: React.FC<Props> = ({ component, propsPattern, originalProps }) => {
+export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, originalProps }) => {
   const propsCombinations = createPropsCombinations(propsPattern);
   const Component = component;
   return propsCombinations.map((props: React.Props<any>) => {

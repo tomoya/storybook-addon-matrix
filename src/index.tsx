@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { makeDecorator } from '@storybook/addons';
-import { Matrix } from './Matrix';
+import { Matrix } from './components/Matrix';
 
 export const withMatrix = makeDecorator({
   name: 'withMatrix',
