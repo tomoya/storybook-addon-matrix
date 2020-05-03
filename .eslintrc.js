@@ -39,4 +39,12 @@ module.exports = {
       },
     ],
   },
+  overrides: [
+    {
+      files: ['**/*.test.{ts,tsx}'],
+      rules: {
+        '@typescript-eslint/no-magic-numbers': 'off',
+      },
+    },
+  ],
 };
