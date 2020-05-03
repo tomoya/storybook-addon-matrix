@@ -12,6 +12,11 @@ export const withMatrix = makeDecorator({
     const { pattern } = parameters;
     const storyFn = getStory(context);
     const originalProps = storyFn.props;
-    return <Matrix component={component} propsPattern={pattern} originalProps={originalProps} />;
+    return (
+      <>
+        {storyFn}
+        <Matrix component={component} propsPattern={pattern} originalProps={originalProps} />
+      </>
+    );
   },
 });
