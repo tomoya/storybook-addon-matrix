@@ -6,6 +6,10 @@
   "types": "dist/index.d.ts",
   "author": "Tomoya Otake",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomoya/storybook-addon-matrix.git"
+  },
   "scripts": {
     "prepublish": "yarn build",
     "build": "tsc",
