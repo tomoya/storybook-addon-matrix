@@ -9,10 +9,13 @@ type Props = {
 
 export const Matrix: React.FC<Props> = ({ component, propsPattern, originalProps }) => {
   const propsCombinations = createPropsCombinations(propsPattern);
-  return propsCombinations.map((props: React.Props<any>) => (
-    <div>
-      <Component {...originalProps} {...props} />
-    </div>
-  ));
   const Component = component;
+  return propsCombinations.map((props: React.Props<any>) => {
+    const propsString = JSON.stringify(props);
+    return (
+      <div key={encodeURIComponent(propsString)}>
+        <Component {...originalProps} {...props} />
+      </div>
+    );
+  });
 };
