@@ -10,7 +10,11 @@
     "@storybook/addon-links": "5.3.18",
     "@storybook/addons": "5.3.18",
     "@storybook/react": "5.3.18",
+    "@types/styled-components": "5.1.0",
+    "@types/styled-system": "5.1.9",
     "babel-loader": "8.1.0",
+    "styled-components": "5.1.0",
+    "styled-system": "5.1.5",
     "ts-loader": "7.0.2"
   },
   "scripts": {
