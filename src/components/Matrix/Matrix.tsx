@@ -31,7 +31,7 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
               return (
                 <Box key={key}>
                   <Box mb={2}>
-                    <Text fontWeight="bold">{key}</Text>: <Text>{value}</Text>
+                    <Text fontWeight="bold">{key}</Text>: <Text>{value ?? 'undefined'}</Text>
                   </Box>
                 </Box>
               );

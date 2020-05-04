@@ -246,7 +246,9 @@ Array [
                         <styled.span>
                           <span
                             className="sc-AxirZ HanLJ"
-                          />
+                          >
+                            undefined
+                          </span>
                         </styled.span>
                       </div>
                     </styled.div>
@@ -478,7 +480,9 @@ Array [
                         <styled.span>
                           <span
                             className="sc-AxirZ HanLJ"
-                          />
+                          >
+                            undefined
+                          </span>
                         </styled.span>
                       </div>
                     </styled.div>
