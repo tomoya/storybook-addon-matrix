@@ -1,5 +1,9 @@
 import { addDecorator } from '@storybook/react';
-// import { withMatrix } from 'storybook-addon-matrix';
-import { withMatrix } from './storybook-addon-matrix';
 
-addDecorator(withMatrix);
+if (process.env.NODE_ENV === 'production') {
+  const { withMatrix } = require('storybook-addon-matrix');
+  addDecorator(withMatrix);
+} else {
+  const { withMatrix } = require('./storybook-addon-matrix');
+  addDecorator(withMatrix);
+}
