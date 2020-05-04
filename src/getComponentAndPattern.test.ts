@@ -1,6 +1,6 @@
 import { StoryContext } from '@storybook/addons';
 import { getComponentAndPattern } from './getComponentAndPattern';
-import { ComponentMock } from '../__mocks__/ComponentMock';
+import { ComponentMock } from './__mocks__/ComponentMock';
 
 describe('getComponentAndPattern', () => {
   const testPattern = {
