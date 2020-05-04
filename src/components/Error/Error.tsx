@@ -11,8 +11,10 @@ export const Error: React.FC<ErrorProps> = ({ messages }) => (
     <Text fontSize={2}>Storybook Addon Matrix Error</Text>
     <ul>
       {messages.map((m) => (
-        <li key={m}><Text>{m}</Text></li>
+        <li key={m}>
+          <Text>{m}</Text>
+        </li>
       ))}
     </ul>
   </Box>
-)
+);
