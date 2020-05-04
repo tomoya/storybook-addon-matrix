@@ -9,6 +9,8 @@ type CoponentAndPattern = {
   pattern?: MatrixProps['propsPattern'];
 };
 
+const isObject = (arg: any): boolean => arg && typeof arg === 'object';
+
 export function getComponentAndPattern({ parameters }: StoryContext): CoponentAndPattern {
   const {
     component,
@@ -24,8 +26,15 @@ export function getComponentAndPattern({ parameters }: StoryContext): CoponentAn
   if (pattern && typeof pattern !== 'object') {
     errors.push('Parameter pattern must be Object');
   }
-  if (pattern && typeof pattern === 'object' && Object.keys(pattern).length === 0) {
+  if (isObject(pattern) && Object.keys(pattern).length === 0) {
     errors.push('Parameter pattern must not be empty');
+  }
+  if (
+    isObject(pattern) &&
+    Object.keys(pattern).length !== 0 &&
+    !Array.isArray(Object.entries(pattern)[0][1])
+  ) {
+    errors.push('Parameter pattern value must be Array');
   }
   if (errors.length !== 0) {
     return { errors };

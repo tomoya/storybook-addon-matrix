@@ -96,6 +96,26 @@ describe('getComponentAndPattern', () => {
     expect(pattern).toEqual(undefined);
   });
 
+  test('return errors when pattern value is not array', () => {
+    const context: StoryContext = {
+      id: 'id',
+      name: 'name',
+      kind: 'kind',
+      parameters: {
+        component: ComponentMock,
+        matrix: {
+          pattern: {
+            color: 'string',
+          },
+        },
+      },
+    };
+    const { errors, component, pattern } = getComponentAndPattern(context);
+    expect(errors).toEqual(['Parameter pattern value must be Array']);
+    expect(component).toEqual(undefined);
+    expect(pattern).toEqual(undefined);
+  });
+
   test('return errors when component and pattern are not provided', () => {
     const context: StoryContext = {
       id: 'id',
