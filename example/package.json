@@ -4,15 +4,15 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
+    "@emotion/core": "10.0.28",
+    "@emotion/styled": "10.0.27",
     "react": "16.13.1",
-    "styled-components": "5.1.0",
     "styled-system": "5.1.5"
   },
   "devDependencies": {
     "@babel/core": "7.9.6",
     "@storybook/addons": "5.3.18",
     "@storybook/react": "5.3.18",
-    "@types/styled-components": "5.1.0",
     "@types/styled-system": "5.1.9",
     "babel-loader": "8.1.0",
     "storybook-addon-matrix": "1.2.0",

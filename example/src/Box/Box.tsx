@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 import { space, color, layout, LayoutProps, SpaceProps, ColorProps } from 'styled-system';
 
 export type BoxProps = LayoutProps & SpaceProps & ColorProps;

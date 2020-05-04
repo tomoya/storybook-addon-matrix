@@ -17,8 +17,6 @@
     "lint": "eslint --cache --ext .js,.ts,.tsx ./"
   },
   "devDependencies": {
-    "@emotion/core": "10.0.28",
-    "@emotion/styled": "10.0.27",
     "@types/enzyme": "3.10.5",
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/jest": "25.2.1",
@@ -46,13 +44,13 @@
     "typescript": "3.8.3"
   },
   "dependencies": {
+    "@emotion/core": "10.0.28",
+    "@emotion/styled": "10.0.27",
     "@storybook/addons": "5.3.18",
     "@types/js-combinatorics": "0.5.31",
-    "@types/styled-components": "5.1.0",
     "@types/styled-system": "5.1.9",
     "js-combinatorics": "0.5.5",
     "react": "16.13.1",
-    "styled-components": "5.1.0",
     "styled-system": "5.1.5"
   },
   "peerDependencies": {
