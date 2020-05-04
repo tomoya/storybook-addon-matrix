@@ -32,7 +32,7 @@ export function getComponentAndPattern({ parameters }: StoryContext): CoponentAn
   if (
     isObject(pattern) &&
     Object.keys(pattern).length !== 0 &&
-    !Array.isArray(Object.entries(pattern)[0][1])
+    Object.entries(pattern).some(([_, v]) => !Array.isArray(v))
   ) {
     errors.push('Parameter pattern value must be Array');
   }

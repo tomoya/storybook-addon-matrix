@@ -105,7 +105,8 @@ describe('getComponentAndPattern', () => {
         component: ComponentMock,
         matrix: {
           pattern: {
-            color: 'string',
+            color: ['string'],
+            fontSize: 'string',
           },
         },
       },
