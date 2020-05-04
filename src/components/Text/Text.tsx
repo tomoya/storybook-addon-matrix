@@ -10,6 +10,7 @@ const Text: React.FC<TextProps> = styled.span`
 `;
 
 Text.defaultProps = {
+  color: 'rgb(51, 51, 51)',
   fontFamily: '"Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif',
 };
 
