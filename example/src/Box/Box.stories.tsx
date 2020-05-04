@@ -9,7 +9,7 @@ export default {
       pattern: {
         bg: ['white', 'blue', 'red', 'yellow'],
         width: [1, '50%', 256],
-        p: [1, 2, 3],
+        p: [undefined, 2, 3],
       },
     },
   },

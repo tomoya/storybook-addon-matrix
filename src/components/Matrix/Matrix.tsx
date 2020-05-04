@@ -27,15 +27,13 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
           width={3 / 10}
         >
           <Box bg="#eeeeee" p={2} width={128}>
-            {Object.entries(props).map(([key, value]) => {
-              return (
-                <Box key={key}>
-                  <Box mb={2}>
-                    <Text fontWeight="bold">{key}</Text>: <Text>{value}</Text>
-                  </Box>
+            {Object.entries(props).map(([key, value]) => (
+              <Box key={key}>
+                <Box mb={2}>
+                  <Text fontWeight="bold">{key}</Text>: <Text>{value ?? 'undefined'}</Text>
                 </Box>
-              );
-            })}
+              </Box>
+            ))}
           </Box>
           <Box m={2} overflow="hidden">
             <Component {...originalProps} {...props} />
