@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addon Matrix should render <Matrix /> 1`] = `
+Array [
+  <styled.div>
+    <div
+      className="sc-AxjAm dYfHlB"
+    >
+      <TestComponent>
+        <BaseComponent
+          text="TEXT"
+          title="TITLE"
+        >
+          <div>
+            <h1>
+              TITLE
+            </h1>
+            <p>
+              TEXT
+            </p>
+          </div>
+        </BaseComponent>
+      </TestComponent>
+    </div>
+  </styled.div>,
+  <Component
+    component={[Function]}
+    originalProps={Object {}}
+    propsPattern={
+      Object {
+        "text": Array [
+          "text pattern 1",
+          "text pattern 2",
+        ],
+        "title": Array [
+          undefined,
+          "title pattern 1",
+        ],
+      }
+    }
+  >
+    <styled.div
+      border="1px solid #ddd"
+      borderRadius={3}
+      boxShadow="1px 1px 6px #eee"
+      key="%7B%22text%22%3A%22text%20pattern%201%22%7D"
+      m={2}
+      mb={3}
+    >
+      <div
+        className="sc-AxjAm cgWUlu"
+      >
+        <styled.div
+          bg="#eeeeee"
+          p={2}
+        >
+          <div
+            className="sc-AxjAm Zfmpp"
+          >
+            <styled.span>
+              <span
+                className="sc-AxirZ HanLJ"
+              >
+                {"text":"text pattern 1"}
+              </span>
+            </styled.span>
+          </div>
+        </styled.div>
+        <styled.div
+          m={2}
+        >
+          <div
+            className="sc-AxjAm brQMOi"
+          >
+            <BaseComponent
+              text="text pattern 1"
+            >
+              <div>
+                <p>
+                  text pattern 1
+                </p>
+              </div>
+            </BaseComponent>
+          </div>
+        </styled.div>
+      </div>
+    </styled.div>
+    <styled.div
+      border="1px solid #ddd"
+      borderRadius={3}
+      boxShadow="1px 1px 6px #eee"
+      key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%201%22%7D"
+      m={2}
+      mb={3}
+    >
+      <div
+        className="sc-AxjAm cgWUlu"
+      >
+        <styled.div
+          bg="#eeeeee"
+          p={2}
+        >
+          <div
+            className="sc-AxjAm Zfmpp"
+          >
+            <styled.span>
+              <span
+                className="sc-AxirZ HanLJ"
+              >
+                {"title":"title pattern 1","text":"text pattern 1"}
+              </span>
+            </styled.span>
+          </div>
+        </styled.div>
+        <styled.div
+          m={2}
+        >
+          <div
+            className="sc-AxjAm brQMOi"
+          >
+            <BaseComponent
+              text="text pattern 1"
+              title="title pattern 1"
+            >
+              <div>
+                <h1>
+                  title pattern 1
+                </h1>
+                <p>
+                  text pattern 1
+                </p>
+              </div>
+            </BaseComponent>
+          </div>
+        </styled.div>
+      </div>
+    </styled.div>
+    <styled.div
+      border="1px solid #ddd"
+      borderRadius={3}
+      boxShadow="1px 1px 6px #eee"
+      key="%7B%22text%22%3A%22text%20pattern%202%22%7D"
+      m={2}
+      mb={3}
+    >
+      <div
+        className="sc-AxjAm cgWUlu"
+      >
+        <styled.div
+          bg="#eeeeee"
+          p={2}
+        >
+          <div
+            className="sc-AxjAm Zfmpp"
+          >
+            <styled.span>
+              <span
+                className="sc-AxirZ HanLJ"
+              >
+                {"text":"text pattern 2"}
+              </span>
+            </styled.span>
+          </div>
+        </styled.div>
+        <styled.div
+          m={2}
+        >
+          <div
+            className="sc-AxjAm brQMOi"
+          >
+            <BaseComponent
+              text="text pattern 2"
+            >
+              <div>
+                <p>
+                  text pattern 2
+                </p>
+              </div>
+            </BaseComponent>
+          </div>
+        </styled.div>
+      </div>
+    </styled.div>
+    <styled.div
+      border="1px solid #ddd"
+      borderRadius={3}
+      boxShadow="1px 1px 6px #eee"
+      key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%202%22%7D"
+      m={2}
+      mb={3}
+    >
+      <div
+        className="sc-AxjAm cgWUlu"
+      >
+        <styled.div
+          bg="#eeeeee"
+          p={2}
+        >
+          <div
+            className="sc-AxjAm Zfmpp"
+          >
+            <styled.span>
+              <span
+                className="sc-AxirZ HanLJ"
+              >
+                {"title":"title pattern 1","text":"text pattern 2"}
+              </span>
+            </styled.span>
+          </div>
+        </styled.div>
+        <styled.div
+          m={2}
+        >
+          <div
+            className="sc-AxjAm brQMOi"
+          >
+            <BaseComponent
+              text="text pattern 2"
+              title="title pattern 1"
+            >
+              <div>
+                <h1>
+                  title pattern 1
+                </h1>
+                <p>
+                  text pattern 2
+                </p>
+              </div>
+            </BaseComponent>
+          </div>
+        </styled.div>
+      </div>
+    </styled.div>
+  </Component>,
+]
+`;
