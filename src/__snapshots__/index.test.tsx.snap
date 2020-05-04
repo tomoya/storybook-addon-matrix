@@ -214,27 +214,78 @@ Array [
             <styled.div
               bg="#eeeeee"
               p={2}
-              width={0.2}
+              width={128}
             >
               <div
-                className="sc-AxjAm fqZapV"
-                width={0.2}
+                className="sc-AxjAm fOdBHl"
+                width={128}
               >
-                <styled.span>
-                  <span
-                    className="sc-AxirZ HanLJ"
+                <styled.div
+                  key="title"
+                >
+                  <div
+                    className="sc-AxjAm dYfHlB"
                   >
-                    <span
-                      style={
-                        Object {
-                          "overflowWrap": "break-word",
-                        }
-                      }
+                    <styled.div
+                      mb={2}
                     >
-                      {"text":"text pattern 1"}
-                    </span>
-                  </span>
-                </styled.span>
+                      <div
+                        className="sc-AxjAm gmAUyk"
+                      >
+                        <styled.span
+                          fontWeight="bold"
+                        >
+                          <span
+                            className="sc-AxirZ dZrA-DP"
+                            fontWeight="bold"
+                          >
+                            title
+                          </span>
+                        </styled.span>
+                        : 
+                        <styled.span>
+                          <span
+                            className="sc-AxirZ HanLJ"
+                          />
+                        </styled.span>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
+                <styled.div
+                  key="text"
+                >
+                  <div
+                    className="sc-AxjAm dYfHlB"
+                  >
+                    <styled.div
+                      mb={2}
+                    >
+                      <div
+                        className="sc-AxjAm gmAUyk"
+                      >
+                        <styled.span
+                          fontWeight="bold"
+                        >
+                          <span
+                            className="sc-AxirZ dZrA-DP"
+                            fontWeight="bold"
+                          >
+                            text
+                          </span>
+                        </styled.span>
+                        : 
+                        <styled.span>
+                          <span
+                            className="sc-AxirZ HanLJ"
+                          >
+                            text pattern 1
+                          </span>
+                        </styled.span>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
               </div>
             </styled.div>
             <styled.div
@@ -276,27 +327,80 @@ Array [
             <styled.div
               bg="#eeeeee"
               p={2}
-              width={0.2}
+              width={128}
             >
               <div
-                className="sc-AxjAm fqZapV"
-                width={0.2}
+                className="sc-AxjAm fOdBHl"
+                width={128}
               >
-                <styled.span>
-                  <span
-                    className="sc-AxirZ HanLJ"
+                <styled.div
+                  key="title"
+                >
+                  <div
+                    className="sc-AxjAm dYfHlB"
                   >
-                    <span
-                      style={
-                        Object {
-                          "overflowWrap": "break-word",
-                        }
-                      }
+                    <styled.div
+                      mb={2}
                     >
-                      {"title":"title pattern 1","text":"text pattern 1"}
-                    </span>
-                  </span>
-                </styled.span>
+                      <div
+                        className="sc-AxjAm gmAUyk"
+                      >
+                        <styled.span
+                          fontWeight="bold"
+                        >
+                          <span
+                            className="sc-AxirZ dZrA-DP"
+                            fontWeight="bold"
+                          >
+                            title
+                          </span>
+                        </styled.span>
+                        : 
+                        <styled.span>
+                          <span
+                            className="sc-AxirZ HanLJ"
+                          >
+                            title pattern 1
+                          </span>
+                        </styled.span>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
+                <styled.div
+                  key="text"
+                >
+                  <div
+                    className="sc-AxjAm dYfHlB"
+                  >
+                    <styled.div
+                      mb={2}
+                    >
+                      <div
+                        className="sc-AxjAm gmAUyk"
+                      >
+                        <styled.span
+                          fontWeight="bold"
+                        >
+                          <span
+                            className="sc-AxirZ dZrA-DP"
+                            fontWeight="bold"
+                          >
+                            text
+                          </span>
+                        </styled.span>
+                        : 
+                        <styled.span>
+                          <span
+                            className="sc-AxirZ HanLJ"
+                          >
+                            text pattern 1
+                          </span>
+                        </styled.span>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
               </div>
             </styled.div>
             <styled.div
@@ -342,27 +446,78 @@ Array [
             <styled.div
               bg="#eeeeee"
               p={2}
-              width={0.2}
+              width={128}
             >
               <div
-                className="sc-AxjAm fqZapV"
-                width={0.2}
+                className="sc-AxjAm fOdBHl"
+                width={128}
               >
-                <styled.span>
-                  <span
-                    className="sc-AxirZ HanLJ"
+                <styled.div
+                  key="title"
+                >
+                  <div
+                    className="sc-AxjAm dYfHlB"
                   >
-                    <span
-                      style={
-                        Object {
-                          "overflowWrap": "break-word",
-                        }
-                      }
+                    <styled.div
+                      mb={2}
                     >
-                      {"text":"text pattern 2"}
-                    </span>
-                  </span>
-                </styled.span>
+                      <div
+                        className="sc-AxjAm gmAUyk"
+                      >
+                        <styled.span
+                          fontWeight="bold"
+                        >
+                          <span
+                            className="sc-AxirZ dZrA-DP"
+                            fontWeight="bold"
+                          >
+                            title
+                          </span>
+                        </styled.span>
+                        : 
+                        <styled.span>
+                          <span
+                            className="sc-AxirZ HanLJ"
+                          />
+                        </styled.span>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
+                <styled.div
+                  key="text"
+                >
+                  <div
+                    className="sc-AxjAm dYfHlB"
+                  >
+                    <styled.div
+                      mb={2}
+                    >
+                      <div
+                        className="sc-AxjAm gmAUyk"
+                      >
+                        <styled.span
+                          fontWeight="bold"
+                        >
+                          <span
+                            className="sc-AxirZ dZrA-DP"
+                            fontWeight="bold"
+                          >
+                            text
+                          </span>
+                        </styled.span>
+                        : 
+                        <styled.span>
+                          <span
+                            className="sc-AxirZ HanLJ"
+                          >
+                            text pattern 2
+                          </span>
+                        </styled.span>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
               </div>
             </styled.div>
             <styled.div
@@ -404,27 +559,80 @@ Array [
             <styled.div
               bg="#eeeeee"
               p={2}
-              width={0.2}
+              width={128}
             >
               <div
-                className="sc-AxjAm fqZapV"
-                width={0.2}
+                className="sc-AxjAm fOdBHl"
+                width={128}
               >
-                <styled.span>
-                  <span
-                    className="sc-AxirZ HanLJ"
+                <styled.div
+                  key="title"
+                >
+                  <div
+                    className="sc-AxjAm dYfHlB"
                   >
-                    <span
-                      style={
-                        Object {
-                          "overflowWrap": "break-word",
-                        }
-                      }
+                    <styled.div
+                      mb={2}
                     >
-                      {"title":"title pattern 1","text":"text pattern 2"}
-                    </span>
-                  </span>
-                </styled.span>
+                      <div
+                        className="sc-AxjAm gmAUyk"
+                      >
+                        <styled.span
+                          fontWeight="bold"
+                        >
+                          <span
+                            className="sc-AxirZ dZrA-DP"
+                            fontWeight="bold"
+                          >
+                            title
+                          </span>
+                        </styled.span>
+                        : 
+                        <styled.span>
+                          <span
+                            className="sc-AxirZ HanLJ"
+                          >
+                            title pattern 1
+                          </span>
+                        </styled.span>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
+                <styled.div
+                  key="text"
+                >
+                  <div
+                    className="sc-AxjAm dYfHlB"
+                  >
+                    <styled.div
+                      mb={2}
+                    >
+                      <div
+                        className="sc-AxjAm gmAUyk"
+                      >
+                        <styled.span
+                          fontWeight="bold"
+                        >
+                          <span
+                            className="sc-AxirZ dZrA-DP"
+                            fontWeight="bold"
+                          >
+                            text
+                          </span>
+                        </styled.span>
+                        : 
+                        <styled.span>
+                          <span
+                            className="sc-AxirZ HanLJ"
+                          >
+                            text pattern 2
+                          </span>
+                        </styled.span>
+                      </div>
+                    </styled.div>
+                  </div>
+                </styled.div>
               </div>
             </styled.div>
             <styled.div
