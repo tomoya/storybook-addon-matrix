@@ -29,6 +29,7 @@ module.exports = {
       'error',
       { ignoreEnums: true, ignoreNumericLiteralTypes: true },
     ],
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'react/jsx-props-no-spreading': 'off',
     'react/prop-types': 'off',
     'jest/no-mocks-import': 'off',
