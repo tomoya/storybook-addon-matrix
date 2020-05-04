@@ -1,6 +1,7 @@
 .cache/
 .git/
 .log/
+__mocks__/
 example/
 node_modules/
 scripts/
@@ -9,7 +10,7 @@ src/
 .eslintignore
 .eslintrc.js
 .gitignore
-.jest.config.js
+jest.config.js
 renovate.json
 tsconfig.eslint.json
 tsconfig.json
