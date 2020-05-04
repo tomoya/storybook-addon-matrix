@@ -245,11 +245,11 @@ Array [
             <styled.div
               bg="rgb(246, 249, 252)"
               p={2}
-              width={128}
+              width={0.3333333333333333}
             >
               <div
-                className="sc-AxjAm iZAXki"
-                width={128}
+                className="sc-AxjAm kdPsEa"
+                width={0.3333333333333333}
               >
                 <styled.div
                   key="title"
@@ -342,10 +342,12 @@ Array [
             <styled.div
               m={2}
               overflow="hidden"
+              width={0.6666666666666666}
             >
               <div
-                className="sc-AxjAm kUYppd"
+                className="sc-AxjAm eVjcWt"
                 overflow="hidden"
+                width={0.6666666666666666}
               >
                 <BaseComponent
                   text="text pattern 1"
@@ -377,11 +379,11 @@ Array [
             <styled.div
               bg="rgb(246, 249, 252)"
               p={2}
-              width={128}
+              width={0.3333333333333333}
             >
               <div
-                className="sc-AxjAm iZAXki"
-                width={128}
+                className="sc-AxjAm kdPsEa"
+                width={0.3333333333333333}
               >
                 <styled.div
                   key="title"
@@ -474,10 +476,12 @@ Array [
             <styled.div
               m={2}
               overflow="hidden"
+              width={0.6666666666666666}
             >
               <div
-                className="sc-AxjAm kUYppd"
+                className="sc-AxjAm eVjcWt"
                 overflow="hidden"
+                width={0.6666666666666666}
               >
                 <BaseComponent
                   text="text pattern 1"
@@ -513,11 +517,11 @@ Array [
             <styled.div
               bg="rgb(246, 249, 252)"
               p={2}
-              width={128}
+              width={0.3333333333333333}
             >
               <div
-                className="sc-AxjAm iZAXki"
-                width={128}
+                className="sc-AxjAm kdPsEa"
+                width={0.3333333333333333}
               >
                 <styled.div
                   key="title"
@@ -610,10 +614,12 @@ Array [
             <styled.div
               m={2}
               overflow="hidden"
+              width={0.6666666666666666}
             >
               <div
-                className="sc-AxjAm kUYppd"
+                className="sc-AxjAm eVjcWt"
                 overflow="hidden"
+                width={0.6666666666666666}
               >
                 <BaseComponent
                   text="text pattern 2"
@@ -645,11 +651,11 @@ Array [
             <styled.div
               bg="rgb(246, 249, 252)"
               p={2}
-              width={128}
+              width={0.3333333333333333}
             >
               <div
-                className="sc-AxjAm iZAXki"
-                width={128}
+                className="sc-AxjAm kdPsEa"
+                width={0.3333333333333333}
               >
                 <styled.div
                   key="title"
@@ -742,10 +748,12 @@ Array [
             <styled.div
               m={2}
               overflow="hidden"
+              width={0.6666666666666666}
             >
               <div
-                className="sc-AxjAm kUYppd"
+                className="sc-AxjAm eVjcWt"
                 overflow="hidden"
+                width={0.6666666666666666}
               >
                 <BaseComponent
                   text="text pattern 2"

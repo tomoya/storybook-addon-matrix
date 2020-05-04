@@ -25,7 +25,7 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
           borderRadius={4}
           width={3 / 10}
         >
-          <Box bg="rgb(246, 249, 252)" p={2} width={128}>
+          <Box bg="rgb(246, 249, 252)" p={2} width={1/3}>
             {Object.entries(props).map(([key, value]) => (
               <Box key={key}>
                 <Box mb={2}>
@@ -37,7 +37,7 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
               </Box>
             ))}
           </Box>
-          <Box m={2} overflow="hidden">
+          <Box m={2} overflow="hidden" width={2/3}>
             <Component {...originalProps} {...props} />
           </Box>
         </Flex>
