@@ -1,0 +1,27 @@
+name: Main
+on: push
+jobs:
+  build-lint-test:
+    name: Build Lint Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@master
+        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: v1-yarn-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            v1-yarn-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+            v1-yarn-${{ runner.os }}
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
+      - run: yarn lint
+      - run: yarn test --maxWorkers=2 --ci
