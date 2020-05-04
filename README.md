@@ -17,3 +17,7 @@ Storybook addon for rendering components with a matrix of props.
 [npm]: https://npmjs.com/package/storybook-addon-matrix
 [github]: https://github.com/tomoya/storybook-addon-matrix
 [actions]: https://flat.badgen.net/github/checks/tomoya/storybook-addon-matrix
+
+```sh
+npm i storybook-addon-matrix
+```
