@@ -149,9 +149,11 @@ exports[`addon Matrix should render <Error /> when pattern is not exist 1`] = `
 
 exports[`addon Matrix should render <Matrix /> 1`] = `
 Array [
-  <styled.div>
+  <styled.div
+    mb={3}
+  >
     <div
-      className="sc-AxjAm dYfHlB"
+      className="sc-AxjAm dQBEZz"
     >
       <TestComponent>
         <BaseComponent
@@ -186,198 +188,272 @@ Array [
       }
     }
   >
-    <styled.div
-      border="1px solid #ddd"
-      borderRadius={3}
-      boxShadow="1px 1px 6px #eee"
-      key="%7B%22text%22%3A%22text%20pattern%201%22%7D"
-      m={2}
-      mb={3}
+    <Styled(styled.div)
+      display="flex"
+      flexWrap="wrap"
     >
       <div
-        className="sc-AxjAm cgWUlu"
+        className="sc-AxjAm sc-AxiKw LrCLv"
+        display="flex"
       >
-        <styled.div
-          bg="#eeeeee"
-          p={2}
+        <Styled(styled.div)
+          border="1px solid #ddd"
+          borderRadius={3}
+          boxShadow="1px 1px 6px #eee"
+          display="flex"
+          key="%7B%22text%22%3A%22text%20pattern%201%22%7D"
+          m="auto"
+          mb={3}
+          width={0.3}
         >
           <div
-            className="sc-AxjAm Zfmpp"
+            className="sc-AxjAm sc-AxiKw GBekJ"
+            display="flex"
+            width={0.3}
           >
-            <styled.span>
-              <span
-                className="sc-AxirZ HanLJ"
-              >
-                {"text":"text pattern 1"}
-              </span>
-            </styled.span>
-          </div>
-        </styled.div>
-        <styled.div
-          m={2}
-        >
-          <div
-            className="sc-AxjAm brQMOi"
-          >
-            <BaseComponent
-              text="text pattern 1"
+            <styled.div
+              bg="#eeeeee"
+              p={2}
+              width={0.2}
             >
-              <div>
-                <p>
-                  text pattern 1
-                </p>
-              </div>
-            </BaseComponent>
-          </div>
-        </styled.div>
-      </div>
-    </styled.div>
-    <styled.div
-      border="1px solid #ddd"
-      borderRadius={3}
-      boxShadow="1px 1px 6px #eee"
-      key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%201%22%7D"
-      m={2}
-      mb={3}
-    >
-      <div
-        className="sc-AxjAm cgWUlu"
-      >
-        <styled.div
-          bg="#eeeeee"
-          p={2}
-        >
-          <div
-            className="sc-AxjAm Zfmpp"
-          >
-            <styled.span>
-              <span
-                className="sc-AxirZ HanLJ"
+              <div
+                className="sc-AxjAm fqZapV"
+                width={0.2}
               >
-                {"title":"title pattern 1","text":"text pattern 1"}
-              </span>
-            </styled.span>
-          </div>
-        </styled.div>
-        <styled.div
-          m={2}
-        >
-          <div
-            className="sc-AxjAm brQMOi"
-          >
-            <BaseComponent
-              text="text pattern 1"
-              title="title pattern 1"
-            >
-              <div>
-                <h1>
-                  title pattern 1
-                </h1>
-                <p>
-                  text pattern 1
-                </p>
+                <styled.span>
+                  <span
+                    className="sc-AxirZ HanLJ"
+                  >
+                    <span
+                      style={
+                        Object {
+                          "overflowWrap": "break-word",
+                        }
+                      }
+                    >
+                      {"text":"text pattern 1"}
+                    </span>
+                  </span>
+                </styled.span>
               </div>
-            </BaseComponent>
-          </div>
-        </styled.div>
-      </div>
-    </styled.div>
-    <styled.div
-      border="1px solid #ddd"
-      borderRadius={3}
-      boxShadow="1px 1px 6px #eee"
-      key="%7B%22text%22%3A%22text%20pattern%202%22%7D"
-      m={2}
-      mb={3}
-    >
-      <div
-        className="sc-AxjAm cgWUlu"
-      >
-        <styled.div
-          bg="#eeeeee"
-          p={2}
-        >
-          <div
-            className="sc-AxjAm Zfmpp"
-          >
-            <styled.span>
-              <span
-                className="sc-AxirZ HanLJ"
+            </styled.div>
+            <styled.div
+              m={2}
+              overflow="hidden"
+            >
+              <div
+                className="sc-AxjAm kUYppd"
+                overflow="hidden"
               >
-                {"text":"text pattern 2"}
-              </span>
-            </styled.span>
-          </div>
-        </styled.div>
-        <styled.div
-          m={2}
-        >
-          <div
-            className="sc-AxjAm brQMOi"
-          >
-            <BaseComponent
-              text="text pattern 2"
-            >
-              <div>
-                <p>
-                  text pattern 2
-                </p>
+                <BaseComponent
+                  text="text pattern 1"
+                >
+                  <div>
+                    <p>
+                      text pattern 1
+                    </p>
+                  </div>
+                </BaseComponent>
               </div>
-            </BaseComponent>
+            </styled.div>
           </div>
-        </styled.div>
-      </div>
-    </styled.div>
-    <styled.div
-      border="1px solid #ddd"
-      borderRadius={3}
-      boxShadow="1px 1px 6px #eee"
-      key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%202%22%7D"
-      m={2}
-      mb={3}
-    >
-      <div
-        className="sc-AxjAm cgWUlu"
-      >
-        <styled.div
-          bg="#eeeeee"
-          p={2}
+        </Styled(styled.div)>
+        <Styled(styled.div)
+          border="1px solid #ddd"
+          borderRadius={3}
+          boxShadow="1px 1px 6px #eee"
+          display="flex"
+          key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%201%22%7D"
+          m="auto"
+          mb={3}
+          width={0.3}
         >
           <div
-            className="sc-AxjAm Zfmpp"
+            className="sc-AxjAm sc-AxiKw GBekJ"
+            display="flex"
+            width={0.3}
           >
-            <styled.span>
-              <span
-                className="sc-AxirZ HanLJ"
+            <styled.div
+              bg="#eeeeee"
+              p={2}
+              width={0.2}
+            >
+              <div
+                className="sc-AxjAm fqZapV"
+                width={0.2}
               >
-                {"title":"title pattern 1","text":"text pattern 2"}
-              </span>
-            </styled.span>
+                <styled.span>
+                  <span
+                    className="sc-AxirZ HanLJ"
+                  >
+                    <span
+                      style={
+                        Object {
+                          "overflowWrap": "break-word",
+                        }
+                      }
+                    >
+                      {"title":"title pattern 1","text":"text pattern 1"}
+                    </span>
+                  </span>
+                </styled.span>
+              </div>
+            </styled.div>
+            <styled.div
+              m={2}
+              overflow="hidden"
+            >
+              <div
+                className="sc-AxjAm kUYppd"
+                overflow="hidden"
+              >
+                <BaseComponent
+                  text="text pattern 1"
+                  title="title pattern 1"
+                >
+                  <div>
+                    <h1>
+                      title pattern 1
+                    </h1>
+                    <p>
+                      text pattern 1
+                    </p>
+                  </div>
+                </BaseComponent>
+              </div>
+            </styled.div>
           </div>
-        </styled.div>
-        <styled.div
-          m={2}
+        </Styled(styled.div)>
+        <Styled(styled.div)
+          border="1px solid #ddd"
+          borderRadius={3}
+          boxShadow="1px 1px 6px #eee"
+          display="flex"
+          key="%7B%22text%22%3A%22text%20pattern%202%22%7D"
+          m="auto"
+          mb={3}
+          width={0.3}
         >
           <div
-            className="sc-AxjAm brQMOi"
+            className="sc-AxjAm sc-AxiKw GBekJ"
+            display="flex"
+            width={0.3}
           >
-            <BaseComponent
-              text="text pattern 2"
-              title="title pattern 1"
+            <styled.div
+              bg="#eeeeee"
+              p={2}
+              width={0.2}
             >
-              <div>
-                <h1>
-                  title pattern 1
-                </h1>
-                <p>
-                  text pattern 2
-                </p>
+              <div
+                className="sc-AxjAm fqZapV"
+                width={0.2}
+              >
+                <styled.span>
+                  <span
+                    className="sc-AxirZ HanLJ"
+                  >
+                    <span
+                      style={
+                        Object {
+                          "overflowWrap": "break-word",
+                        }
+                      }
+                    >
+                      {"text":"text pattern 2"}
+                    </span>
+                  </span>
+                </styled.span>
               </div>
-            </BaseComponent>
+            </styled.div>
+            <styled.div
+              m={2}
+              overflow="hidden"
+            >
+              <div
+                className="sc-AxjAm kUYppd"
+                overflow="hidden"
+              >
+                <BaseComponent
+                  text="text pattern 2"
+                >
+                  <div>
+                    <p>
+                      text pattern 2
+                    </p>
+                  </div>
+                </BaseComponent>
+              </div>
+            </styled.div>
           </div>
-        </styled.div>
+        </Styled(styled.div)>
+        <Styled(styled.div)
+          border="1px solid #ddd"
+          borderRadius={3}
+          boxShadow="1px 1px 6px #eee"
+          display="flex"
+          key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%202%22%7D"
+          m="auto"
+          mb={3}
+          width={0.3}
+        >
+          <div
+            className="sc-AxjAm sc-AxiKw GBekJ"
+            display="flex"
+            width={0.3}
+          >
+            <styled.div
+              bg="#eeeeee"
+              p={2}
+              width={0.2}
+            >
+              <div
+                className="sc-AxjAm fqZapV"
+                width={0.2}
+              >
+                <styled.span>
+                  <span
+                    className="sc-AxirZ HanLJ"
+                  >
+                    <span
+                      style={
+                        Object {
+                          "overflowWrap": "break-word",
+                        }
+                      }
+                    >
+                      {"title":"title pattern 1","text":"text pattern 2"}
+                    </span>
+                  </span>
+                </styled.span>
+              </div>
+            </styled.div>
+            <styled.div
+              m={2}
+              overflow="hidden"
+            >
+              <div
+                className="sc-AxjAm kUYppd"
+                overflow="hidden"
+              >
+                <BaseComponent
+                  text="text pattern 2"
+                  title="title pattern 1"
+                >
+                  <div>
+                    <h1>
+                      title pattern 1
+                    </h1>
+                    <p>
+                      text pattern 2
+                    </p>
+                  </div>
+                </BaseComponent>
+              </div>
+            </styled.div>
+          </div>
+        </Styled(styled.div)>
       </div>
-    </styled.div>
+    </Styled(styled.div)>
   </Component>,
 ]
 `;
