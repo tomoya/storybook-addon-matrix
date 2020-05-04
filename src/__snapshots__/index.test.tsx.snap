@@ -229,9 +229,8 @@ Array [
         display="flex"
       >
         <Styled(styled.div)
-          border="1px solid #ddd"
-          borderRadius={3}
-          boxShadow="1px 1px 6px #eee"
+          borderRadius={4}
+          boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22text%22%3A%22text%20pattern%201%22%7D"
           m="auto"
@@ -239,7 +238,7 @@ Array [
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw GBekJ"
+            className="sc-AxjAm sc-AxiKw jBRdbW"
             display="flex"
             width={0.3}
           >
@@ -362,9 +361,8 @@ Array [
           </div>
         </Styled(styled.div)>
         <Styled(styled.div)
-          border="1px solid #ddd"
-          borderRadius={3}
-          boxShadow="1px 1px 6px #eee"
+          borderRadius={4}
+          boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%201%22%7D"
           m="auto"
@@ -372,7 +370,7 @@ Array [
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw GBekJ"
+            className="sc-AxjAm sc-AxiKw jBRdbW"
             display="flex"
             width={0.3}
           >
@@ -499,9 +497,8 @@ Array [
           </div>
         </Styled(styled.div)>
         <Styled(styled.div)
-          border="1px solid #ddd"
-          borderRadius={3}
-          boxShadow="1px 1px 6px #eee"
+          borderRadius={4}
+          boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22text%22%3A%22text%20pattern%202%22%7D"
           m="auto"
@@ -509,7 +506,7 @@ Array [
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw GBekJ"
+            className="sc-AxjAm sc-AxiKw jBRdbW"
             display="flex"
             width={0.3}
           >
@@ -632,9 +629,8 @@ Array [
           </div>
         </Styled(styled.div)>
         <Styled(styled.div)
-          border="1px solid #ddd"
-          borderRadius={3}
-          boxShadow="1px 1px 6px #eee"
+          borderRadius={4}
+          boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%202%22%7D"
           m="auto"
@@ -642,7 +638,7 @@ Array [
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw GBekJ"
+            className="sc-AxjAm sc-AxiKw jBRdbW"
             display="flex"
             width={0.3}
           >

@@ -19,11 +19,10 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
       {propsCombinations.map((props: React.Props<any>) => (
         <Flex
           key={encodeURIComponent(JSON.stringify(props))}
-          border="1px solid #ddd"
           m="auto"
           mb={3}
-          boxShadow="1px 1px 6px #eee"
-          borderRadius={3}
+          boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
+          borderRadius={4}
           width={3 / 10}
         >
           <Box bg="rgb(246, 249, 252)" p={2} width={128}>
