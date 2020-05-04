@@ -19,7 +19,7 @@ export const withMatrix = makeDecorator({
     const originalProps = storyFn.props;
     return (
       <>
-        <Box>{storyFn}</Box>
+        <Box mb={3}>{storyFn}</Box>
         <Matrix component={component} propsPattern={pattern} originalProps={originalProps} />
       </>
     );
