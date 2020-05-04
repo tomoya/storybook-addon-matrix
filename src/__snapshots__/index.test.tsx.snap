@@ -223,9 +223,10 @@ Array [
     <Styled(styled.div)
       display="flex"
       flexWrap="wrap"
+      justifyContent="space-around"
     >
       <div
-        className="sc-AxjAm sc-AxiKw LrCLv"
+        className="sc-AxjAm sc-AxiKw kflenu"
         display="flex"
       >
         <Styled(styled.div)
@@ -233,12 +234,11 @@ Array [
           boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22text%22%3A%22text%20pattern%201%22%7D"
-          m="auto"
           mb={3}
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw jBRdbW"
+            className="sc-AxjAm sc-AxiKw kowtFO"
             display="flex"
             width={0.3}
           >
@@ -367,12 +367,11 @@ Array [
           boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%201%22%7D"
-          m="auto"
           mb={3}
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw jBRdbW"
+            className="sc-AxjAm sc-AxiKw kowtFO"
             display="flex"
             width={0.3}
           >
@@ -505,12 +504,11 @@ Array [
           boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22text%22%3A%22text%20pattern%202%22%7D"
-          m="auto"
           mb={3}
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw jBRdbW"
+            className="sc-AxjAm sc-AxiKw kowtFO"
             display="flex"
             width={0.3}
           >
@@ -639,12 +637,11 @@ Array [
           boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%202%22%7D"
-          m="auto"
           mb={3}
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw jBRdbW"
+            className="sc-AxjAm sc-AxiKw kowtFO"
             display="flex"
             width={0.3}
           >

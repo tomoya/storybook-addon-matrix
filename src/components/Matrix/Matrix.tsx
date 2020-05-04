@@ -15,17 +15,16 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
   const propsCombinations = createPropsCombinations(propsPattern);
   const Component = component;
   return (
-    <Flex flexWrap="wrap">
+    <Flex flexWrap="wrap" justifyContent="space-around">
       {propsCombinations.map((props: React.Props<any>) => (
         <Flex
           key={encodeURIComponent(JSON.stringify(props))}
-          m="auto"
           mb={3}
           boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           borderRadius={4}
           width={3 / 10}
         >
-          <Box bg="rgb(246, 249, 252)" p={2} width={1/3}>
+          <Box bg="rgb(246, 249, 252)" p={2} width={1 / 3}>
             {Object.entries(props).map(([key, value]) => (
               <Box key={key}>
                 <Box mb={2}>
@@ -37,7 +36,7 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
               </Box>
             ))}
           </Box>
-          <Box m={2} overflow="hidden" width={2/3}>
+          <Box m={2} overflow="hidden" width={2 / 3}>
             <Component {...originalProps} {...props} />
           </Box>
         </Flex>
