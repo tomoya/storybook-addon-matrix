@@ -19,6 +19,8 @@
     "dist",
     "node_modules",
     "example",
-    "**/*.test.*"
+    "**/*.test.*",
+    "**/__mocks__",
+    "**/__snapshots__"
   ]
 }
