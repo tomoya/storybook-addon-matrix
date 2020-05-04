@@ -20,6 +20,9 @@ export function getComponentAndPattern({ parameters }: StoryContext): CoponentAn
   if (!pattern) {
     errors.push('Parameter pattern must be present');
   }
+  if (pattern && typeof pattern !== 'object') {
+    errors.push('Parameter pattern must be Object');
+  }
   // eslint-disable-next-line @typescript-eslint/no-magic-numbers
   if (errors.length !== 0) {
     return { errors };
