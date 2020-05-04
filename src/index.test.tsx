@@ -57,4 +57,13 @@ describe('addon Matrix', () => {
     });
     expect(mount(Matrix)).toMatchSnapshot();
   });
+
+  it('should render <Error /> when component and pattern are not exist', () => {
+    const Matrix = withMatrix()(storyFn, {
+      parameters: {
+        matrix: {},
+      },
+    });
+    expect(mount(Matrix)).toMatchSnapshot();
+  });
 });
