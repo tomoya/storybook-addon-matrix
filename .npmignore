@@ -1,5 +1,6 @@
 .cache/
 .git/
+.github/
 .log/
 __mocks__/
 example/
