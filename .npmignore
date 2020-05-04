@@ -3,12 +3,14 @@
 .log/
 example/
 node_modules/
+scripts/
 src/
 .eslintcache
 .eslintignore
 .eslintrc.js
 .gitignore
 .jest.config.js
+renovate.json
 tsconfig.eslint.json
 tsconfig.json
 yarn-error.log
