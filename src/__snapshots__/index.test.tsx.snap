@@ -15,14 +15,18 @@ exports[`addon Matrix should render <Error /> when component and pattern are not
     p={2}
   >
     <div
-      className="sc-AxjAm bwuNzm"
+      className="sc-AxjAm gDTxAH"
       color="white"
     >
       <styled.span
+        color="rgb(51, 51, 51)"
+        fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
         fontSize={2}
       >
         <span
-          className="sc-AxirZ bCWNZw"
+          className="sc-AxirZ csTfNS"
+          color="rgb(51, 51, 51)"
+          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
           fontSize={2}
         >
           Storybook Addon Matrix Error
@@ -32,9 +36,14 @@ exports[`addon Matrix should render <Error /> when component and pattern are not
         <li
           key="Default export component must be present"
         >
-          <styled.span>
+          <styled.span
+            color="rgb(51, 51, 51)"
+            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+          >
             <span
-              className="sc-AxirZ HanLJ"
+              className="sc-AxirZ fGUFMv"
+              color="rgb(51, 51, 51)"
+              fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
             >
               Default export component must be present
             </span>
@@ -43,9 +52,14 @@ exports[`addon Matrix should render <Error /> when component and pattern are not
         <li
           key="Parameter pattern must be present"
         >
-          <styled.span>
+          <styled.span
+            color="rgb(51, 51, 51)"
+            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+          >
             <span
-              className="sc-AxirZ HanLJ"
+              className="sc-AxirZ fGUFMv"
+              color="rgb(51, 51, 51)"
+              fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
             >
               Parameter pattern must be present
             </span>
@@ -71,14 +85,18 @@ exports[`addon Matrix should render <Error /> when component is not exist 1`] = 
     p={2}
   >
     <div
-      className="sc-AxjAm bwuNzm"
+      className="sc-AxjAm gDTxAH"
       color="white"
     >
       <styled.span
+        color="rgb(51, 51, 51)"
+        fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
         fontSize={2}
       >
         <span
-          className="sc-AxirZ bCWNZw"
+          className="sc-AxirZ csTfNS"
+          color="rgb(51, 51, 51)"
+          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
           fontSize={2}
         >
           Storybook Addon Matrix Error
@@ -88,9 +106,14 @@ exports[`addon Matrix should render <Error /> when component is not exist 1`] = 
         <li
           key="Default export component must be present"
         >
-          <styled.span>
+          <styled.span
+            color="rgb(51, 51, 51)"
+            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+          >
             <span
-              className="sc-AxirZ HanLJ"
+              className="sc-AxirZ fGUFMv"
+              color="rgb(51, 51, 51)"
+              fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
             >
               Default export component must be present
             </span>
@@ -116,14 +139,18 @@ exports[`addon Matrix should render <Error /> when pattern is not exist 1`] = `
     p={2}
   >
     <div
-      className="sc-AxjAm bwuNzm"
+      className="sc-AxjAm gDTxAH"
       color="white"
     >
       <styled.span
+        color="rgb(51, 51, 51)"
+        fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
         fontSize={2}
       >
         <span
-          className="sc-AxirZ bCWNZw"
+          className="sc-AxirZ csTfNS"
+          color="rgb(51, 51, 51)"
+          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
           fontSize={2}
         >
           Storybook Addon Matrix Error
@@ -133,9 +160,14 @@ exports[`addon Matrix should render <Error /> when pattern is not exist 1`] = `
         <li
           key="Parameter pattern must be present"
         >
-          <styled.span>
+          <styled.span
+            color="rgb(51, 51, 51)"
+            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+          >
             <span
-              className="sc-AxirZ HanLJ"
+              className="sc-AxirZ fGUFMv"
+              color="rgb(51, 51, 51)"
+              fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
             >
               Parameter pattern must be present
             </span>
@@ -153,7 +185,7 @@ Array [
     mb={3}
   >
     <div
-      className="sc-AxjAm dQBEZz"
+      className="sc-AxjAm cNfdMu"
     >
       <TestComponent>
         <BaseComponent
@@ -191,61 +223,70 @@ Array [
     <Styled(styled.div)
       display="flex"
       flexWrap="wrap"
+      justifyContent="space-around"
     >
       <div
-        className="sc-AxjAm sc-AxiKw LrCLv"
+        className="sc-AxjAm sc-AxiKw gteojF"
         display="flex"
       >
         <Styled(styled.div)
-          border="1px solid #ddd"
-          borderRadius={3}
-          boxShadow="1px 1px 6px #eee"
+          borderRadius={4}
+          boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22text%22%3A%22text%20pattern%201%22%7D"
-          m="auto"
           mb={3}
+          position="relative"
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw GBekJ"
+            className="sc-AxjAm sc-AxiKw etZMGJ"
             display="flex"
             width={0.3}
           >
             <styled.div
-              bg="#eeeeee"
+              bg="rgb(246, 249, 252)"
               p={2}
-              width={128}
+              width={0.3333333333333333}
             >
               <div
-                className="sc-AxjAm fOdBHl"
-                width={128}
+                className="sc-AxjAm eijsyX"
+                width={0.3333333333333333}
               >
                 <styled.div
                   key="title"
                 >
                   <div
-                    className="sc-AxjAm dYfHlB"
+                    className="sc-AxjAm ebEtZc"
                   >
                     <styled.div
                       mb={2}
                     >
                       <div
-                        className="sc-AxjAm gmAUyk"
+                        className="sc-AxjAm iUYuiJ"
                       >
                         <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           fontWeight="bold"
                         >
                           <span
-                            className="sc-AxirZ dZrA-DP"
+                            className="sc-AxirZ emaXEo"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                             fontWeight="bold"
                           >
                             title
                           </span>
                         </styled.span>
                         : 
-                        <styled.span>
+                        <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                        >
                           <span
-                            className="sc-AxirZ HanLJ"
+                            className="sc-AxirZ hXTaPy"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
                             undefined
                           </span>
@@ -258,28 +299,37 @@ Array [
                   key="text"
                 >
                   <div
-                    className="sc-AxjAm dYfHlB"
+                    className="sc-AxjAm ebEtZc"
                   >
                     <styled.div
                       mb={2}
                     >
                       <div
-                        className="sc-AxjAm gmAUyk"
+                        className="sc-AxjAm iUYuiJ"
                       >
                         <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           fontWeight="bold"
                         >
                           <span
-                            className="sc-AxirZ dZrA-DP"
+                            className="sc-AxirZ emaXEo"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                             fontWeight="bold"
                           >
                             text
                           </span>
                         </styled.span>
                         : 
-                        <styled.span>
+                        <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                        >
                           <span
-                            className="sc-AxirZ HanLJ"
+                            className="sc-AxirZ hXTaPy"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
                             text pattern 1
                           </span>
@@ -293,10 +343,12 @@ Array [
             <styled.div
               m={2}
               overflow="hidden"
+              width={0.6666666666666666}
             >
               <div
-                className="sc-AxjAm kUYppd"
+                className="sc-AxjAm rDyqA"
                 overflow="hidden"
+                width={0.6666666666666666}
               >
                 <BaseComponent
                   text="text pattern 1"
@@ -309,58 +361,93 @@ Array [
                 </BaseComponent>
               </div>
             </styled.div>
+            <styled.div
+              bottom="0"
+              p={2}
+              position="absolute"
+              right="0"
+            >
+              <div
+                className="sc-AxjAm hebaTQ"
+              >
+                <styled.span
+                  color="rgba(51, 51, 51, 0.6)"
+                  fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                  fontSize={1}
+                >
+                  <span
+                    className="sc-AxirZ bdnNgh"
+                    color="rgba(51, 51, 51, 0.6)"
+                    fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                    fontSize={1}
+                  >
+                    1
+                     / 
+                    4
+                  </span>
+                </styled.span>
+              </div>
+            </styled.div>
           </div>
         </Styled(styled.div)>
         <Styled(styled.div)
-          border="1px solid #ddd"
-          borderRadius={3}
-          boxShadow="1px 1px 6px #eee"
+          borderRadius={4}
+          boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%201%22%7D"
-          m="auto"
           mb={3}
+          position="relative"
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw GBekJ"
+            className="sc-AxjAm sc-AxiKw etZMGJ"
             display="flex"
             width={0.3}
           >
             <styled.div
-              bg="#eeeeee"
+              bg="rgb(246, 249, 252)"
               p={2}
-              width={128}
+              width={0.3333333333333333}
             >
               <div
-                className="sc-AxjAm fOdBHl"
-                width={128}
+                className="sc-AxjAm eijsyX"
+                width={0.3333333333333333}
               >
                 <styled.div
                   key="title"
                 >
                   <div
-                    className="sc-AxjAm dYfHlB"
+                    className="sc-AxjAm ebEtZc"
                   >
                     <styled.div
                       mb={2}
                     >
                       <div
-                        className="sc-AxjAm gmAUyk"
+                        className="sc-AxjAm iUYuiJ"
                       >
                         <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           fontWeight="bold"
                         >
                           <span
-                            className="sc-AxirZ dZrA-DP"
+                            className="sc-AxirZ emaXEo"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                             fontWeight="bold"
                           >
                             title
                           </span>
                         </styled.span>
                         : 
-                        <styled.span>
+                        <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                        >
                           <span
-                            className="sc-AxirZ HanLJ"
+                            className="sc-AxirZ hXTaPy"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
                             title pattern 1
                           </span>
@@ -373,28 +460,37 @@ Array [
                   key="text"
                 >
                   <div
-                    className="sc-AxjAm dYfHlB"
+                    className="sc-AxjAm ebEtZc"
                   >
                     <styled.div
                       mb={2}
                     >
                       <div
-                        className="sc-AxjAm gmAUyk"
+                        className="sc-AxjAm iUYuiJ"
                       >
                         <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           fontWeight="bold"
                         >
                           <span
-                            className="sc-AxirZ dZrA-DP"
+                            className="sc-AxirZ emaXEo"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                             fontWeight="bold"
                           >
                             text
                           </span>
                         </styled.span>
                         : 
-                        <styled.span>
+                        <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                        >
                           <span
-                            className="sc-AxirZ HanLJ"
+                            className="sc-AxirZ hXTaPy"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
                             text pattern 1
                           </span>
@@ -408,10 +504,12 @@ Array [
             <styled.div
               m={2}
               overflow="hidden"
+              width={0.6666666666666666}
             >
               <div
-                className="sc-AxjAm kUYppd"
+                className="sc-AxjAm rDyqA"
                 overflow="hidden"
+                width={0.6666666666666666}
               >
                 <BaseComponent
                   text="text pattern 1"
@@ -428,58 +526,93 @@ Array [
                 </BaseComponent>
               </div>
             </styled.div>
+            <styled.div
+              bottom="0"
+              p={2}
+              position="absolute"
+              right="0"
+            >
+              <div
+                className="sc-AxjAm hebaTQ"
+              >
+                <styled.span
+                  color="rgba(51, 51, 51, 0.6)"
+                  fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                  fontSize={1}
+                >
+                  <span
+                    className="sc-AxirZ bdnNgh"
+                    color="rgba(51, 51, 51, 0.6)"
+                    fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                    fontSize={1}
+                  >
+                    2
+                     / 
+                    4
+                  </span>
+                </styled.span>
+              </div>
+            </styled.div>
           </div>
         </Styled(styled.div)>
         <Styled(styled.div)
-          border="1px solid #ddd"
-          borderRadius={3}
-          boxShadow="1px 1px 6px #eee"
+          borderRadius={4}
+          boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22text%22%3A%22text%20pattern%202%22%7D"
-          m="auto"
           mb={3}
+          position="relative"
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw GBekJ"
+            className="sc-AxjAm sc-AxiKw etZMGJ"
             display="flex"
             width={0.3}
           >
             <styled.div
-              bg="#eeeeee"
+              bg="rgb(246, 249, 252)"
               p={2}
-              width={128}
+              width={0.3333333333333333}
             >
               <div
-                className="sc-AxjAm fOdBHl"
-                width={128}
+                className="sc-AxjAm eijsyX"
+                width={0.3333333333333333}
               >
                 <styled.div
                   key="title"
                 >
                   <div
-                    className="sc-AxjAm dYfHlB"
+                    className="sc-AxjAm ebEtZc"
                   >
                     <styled.div
                       mb={2}
                     >
                       <div
-                        className="sc-AxjAm gmAUyk"
+                        className="sc-AxjAm iUYuiJ"
                       >
                         <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           fontWeight="bold"
                         >
                           <span
-                            className="sc-AxirZ dZrA-DP"
+                            className="sc-AxirZ emaXEo"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                             fontWeight="bold"
                           >
                             title
                           </span>
                         </styled.span>
                         : 
-                        <styled.span>
+                        <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                        >
                           <span
-                            className="sc-AxirZ HanLJ"
+                            className="sc-AxirZ hXTaPy"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
                             undefined
                           </span>
@@ -492,28 +625,37 @@ Array [
                   key="text"
                 >
                   <div
-                    className="sc-AxjAm dYfHlB"
+                    className="sc-AxjAm ebEtZc"
                   >
                     <styled.div
                       mb={2}
                     >
                       <div
-                        className="sc-AxjAm gmAUyk"
+                        className="sc-AxjAm iUYuiJ"
                       >
                         <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           fontWeight="bold"
                         >
                           <span
-                            className="sc-AxirZ dZrA-DP"
+                            className="sc-AxirZ emaXEo"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                             fontWeight="bold"
                           >
                             text
                           </span>
                         </styled.span>
                         : 
-                        <styled.span>
+                        <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                        >
                           <span
-                            className="sc-AxirZ HanLJ"
+                            className="sc-AxirZ hXTaPy"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
                             text pattern 2
                           </span>
@@ -527,10 +669,12 @@ Array [
             <styled.div
               m={2}
               overflow="hidden"
+              width={0.6666666666666666}
             >
               <div
-                className="sc-AxjAm kUYppd"
+                className="sc-AxjAm rDyqA"
                 overflow="hidden"
+                width={0.6666666666666666}
               >
                 <BaseComponent
                   text="text pattern 2"
@@ -543,58 +687,93 @@ Array [
                 </BaseComponent>
               </div>
             </styled.div>
+            <styled.div
+              bottom="0"
+              p={2}
+              position="absolute"
+              right="0"
+            >
+              <div
+                className="sc-AxjAm hebaTQ"
+              >
+                <styled.span
+                  color="rgba(51, 51, 51, 0.6)"
+                  fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                  fontSize={1}
+                >
+                  <span
+                    className="sc-AxirZ bdnNgh"
+                    color="rgba(51, 51, 51, 0.6)"
+                    fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                    fontSize={1}
+                  >
+                    3
+                     / 
+                    4
+                  </span>
+                </styled.span>
+              </div>
+            </styled.div>
           </div>
         </Styled(styled.div)>
         <Styled(styled.div)
-          border="1px solid #ddd"
-          borderRadius={3}
-          boxShadow="1px 1px 6px #eee"
+          borderRadius={4}
+          boxShadow="rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.067) 0px 0px 0px 1px"
           display="flex"
           key="%7B%22title%22%3A%22title%20pattern%201%22%2C%22text%22%3A%22text%20pattern%202%22%7D"
-          m="auto"
           mb={3}
+          position="relative"
           width={0.3}
         >
           <div
-            className="sc-AxjAm sc-AxiKw GBekJ"
+            className="sc-AxjAm sc-AxiKw etZMGJ"
             display="flex"
             width={0.3}
           >
             <styled.div
-              bg="#eeeeee"
+              bg="rgb(246, 249, 252)"
               p={2}
-              width={128}
+              width={0.3333333333333333}
             >
               <div
-                className="sc-AxjAm fOdBHl"
-                width={128}
+                className="sc-AxjAm eijsyX"
+                width={0.3333333333333333}
               >
                 <styled.div
                   key="title"
                 >
                   <div
-                    className="sc-AxjAm dYfHlB"
+                    className="sc-AxjAm ebEtZc"
                   >
                     <styled.div
                       mb={2}
                     >
                       <div
-                        className="sc-AxjAm gmAUyk"
+                        className="sc-AxjAm iUYuiJ"
                       >
                         <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           fontWeight="bold"
                         >
                           <span
-                            className="sc-AxirZ dZrA-DP"
+                            className="sc-AxirZ emaXEo"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                             fontWeight="bold"
                           >
                             title
                           </span>
                         </styled.span>
                         : 
-                        <styled.span>
+                        <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                        >
                           <span
-                            className="sc-AxirZ HanLJ"
+                            className="sc-AxirZ hXTaPy"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
                             title pattern 1
                           </span>
@@ -607,28 +786,37 @@ Array [
                   key="text"
                 >
                   <div
-                    className="sc-AxjAm dYfHlB"
+                    className="sc-AxjAm ebEtZc"
                   >
                     <styled.div
                       mb={2}
                     >
                       <div
-                        className="sc-AxjAm gmAUyk"
+                        className="sc-AxjAm iUYuiJ"
                       >
                         <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           fontWeight="bold"
                         >
                           <span
-                            className="sc-AxirZ dZrA-DP"
+                            className="sc-AxirZ emaXEo"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                             fontWeight="bold"
                           >
                             text
                           </span>
                         </styled.span>
                         : 
-                        <styled.span>
+                        <styled.span
+                          color="rgba(51, 51, 51, 0.75)"
+                          fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                        >
                           <span
-                            className="sc-AxirZ HanLJ"
+                            className="sc-AxirZ hXTaPy"
+                            color="rgba(51, 51, 51, 0.75)"
+                            fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
                             text pattern 2
                           </span>
@@ -642,10 +830,12 @@ Array [
             <styled.div
               m={2}
               overflow="hidden"
+              width={0.6666666666666666}
             >
               <div
-                className="sc-AxjAm kUYppd"
+                className="sc-AxjAm rDyqA"
                 overflow="hidden"
+                width={0.6666666666666666}
               >
                 <BaseComponent
                   text="text pattern 2"
@@ -660,6 +850,33 @@ Array [
                     </p>
                   </div>
                 </BaseComponent>
+              </div>
+            </styled.div>
+            <styled.div
+              bottom="0"
+              p={2}
+              position="absolute"
+              right="0"
+            >
+              <div
+                className="sc-AxjAm hebaTQ"
+              >
+                <styled.span
+                  color="rgba(51, 51, 51, 0.6)"
+                  fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                  fontSize={1}
+                >
+                  <span
+                    className="sc-AxirZ bdnNgh"
+                    color="rgba(51, 51, 51, 0.6)"
+                    fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
+                    fontSize={1}
+                  >
+                    4
+                     / 
+                    4
+                  </span>
+                </styled.span>
               </div>
             </styled.div>
           </div>

@@ -6,14 +6,21 @@ import {
   layout,
   border,
   shadow,
+  position,
   LayoutProps,
   SpaceProps,
   ColorProps,
   BorderProps,
   ShadowProps,
+  PositionProps,
 } from 'styled-system';
 
-export type BoxProps = LayoutProps & SpaceProps & ColorProps & BorderProps & ShadowProps;
+export type BoxProps = LayoutProps &
+  SpaceProps &
+  ColorProps &
+  BorderProps &
+  ShadowProps &
+  PositionProps;
 
 export const Box: React.FC<BoxProps> = styled.div`
   ${color}
@@ -21,4 +28,5 @@ export const Box: React.FC<BoxProps> = styled.div`
   ${layout}
   ${border}
   ${shadow}
+  ${position}
 `;
