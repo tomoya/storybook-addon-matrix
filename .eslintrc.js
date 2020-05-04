@@ -21,7 +21,7 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: ['**/*.stories.tsx'],
+        devDependencies: ['**/*.stories.tsx', 'scripts/**/*', '**/*.test.*'],
       },
     ],
     '@typescript-eslint/prefer-optional-chain': 'error',
@@ -30,6 +30,7 @@ module.exports = {
       { ignoreEnums: true, ignoreNumericLiteralTypes: true },
     ],
     'react/jsx-props-no-spreading': 'off',
+    'react/prop-types': 'off',
     'prettier/prettier': [
       'error',
       {

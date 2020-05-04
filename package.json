@@ -17,9 +17,14 @@
     "lint": "eslint --cache --ext .js,.ts,.tsx ./"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/jest": "25.2.1",
     "@typescript-eslint/eslint-plugin": "2.30.0",
     "@typescript-eslint/parser": "2.30.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
     "eslint": "6.8.0",
     "eslint-config-airbnb-typescript": "7.2.1",
     "eslint-config-prettier": "6.11.0",
@@ -31,7 +36,9 @@
     "eslint-plugin-react-hooks": "4.0.0",
     "jest": "25.5.4",
     "jest-environment-jsdom-fourteen": "1.0.1",
+    "jest-enzyme": "^7.1.2",
     "prettier": "2.0.5",
+    "react-dom": "^16.13.1",
     "rimraf": "3.0.2",
     "ts-jest": "25.4.0",
     "typescript": "3.8.3"
