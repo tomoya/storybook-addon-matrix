@@ -7339,10 +7339,10 @@ store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.11.1.tgz#118645f1b5e38d20604852362183955e360a5893"
   integrity sha512-llZqXAXjG2E4FvWsZxFmBDfh6kqQuGFZm64TX23qW02Hf4dyElhDEbYx1IIVTEMKWrrDnDA9oqOjY8WHo2NgcA==
 
-storybook-addon-matrix@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/storybook-addon-matrix/-/storybook-addon-matrix-1.0.1.tgz#0a4a0e7a2c59940996bfbedc01105ae859e9f0b8"
-  integrity sha512-t5iY20hTvpG1WK7U+/fdZOTx4mCeXnhwtGcC7DdQe5pivqe2EEUhFIWE6ti1jL5bolJh0ayQOD3OStuleXXdfQ==
+storybook-addon-matrix@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/storybook-addon-matrix/-/storybook-addon-matrix-1.2.0.tgz#09f096dc2ac8f62c87ed0f2b8a4bdb04a908d06a"
+  integrity sha512-65CwXR+4zJwM9aT0LfVB2FO2QNEqy3CjvaBQGRxgMfBIHtNmlNZBDLcu3VCCuoddFeq3iZRj7ejOJPAsSzCpww==
   dependencies:
     "@storybook/addons" "5.3.18"
     "@types/js-combinatorics" "0.5.31"
