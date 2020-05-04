@@ -34,7 +34,7 @@ describe('addon Matrix', () => {
     expect(mount(Matrix)).toMatchSnapshot();
   });
 
-  it('should return error when component is not exist', () => {
+  it('should render <Error /> when component is not exist', () => {
     const Matrix = withMatrix()(storyFn, {
       parameters: {
         matrix: {
@@ -43,6 +43,16 @@ describe('addon Matrix', () => {
             text: ['text pattern 1', 'text pattern 2'],
           },
         },
+      },
+    });
+    expect(mount(Matrix)).toMatchSnapshot();
+  });
+
+  it('should render <Error /> when pattern is not exist', () => {
+    const Matrix = withMatrix()(storyFn, {
+      parameters: {
+        component: BaseComponent,
+        matrix: {},
       },
     });
     expect(mount(Matrix)).toMatchSnapshot();

@@ -17,6 +17,9 @@ export const withMatrix = makeDecorator({
       return <Error messages={['Default export component must be present']} />
     }
     const { pattern } = parameters;
+    if (!pattern) {
+      return <Error messages={['Parameter pattern must be present']} />
+    }
     const storyFn = getStory(context);
     const originalProps = storyFn.props;
     return (
