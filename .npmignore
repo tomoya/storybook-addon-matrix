@@ -12,6 +12,7 @@ src/
 .eslintrc.js
 .gitignore
 jest.config.js
+now.json
 renovate.json
 tsconfig.eslint.json
 tsconfig.json
