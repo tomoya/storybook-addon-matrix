@@ -234,3 +234,48 @@ Array [
   </Component>,
 ]
 `;
+
+exports[`addon Matrix should return error when component is not exist 1`] = `
+<Component
+  messages={
+    Array [
+      "Default export component must be present",
+    ]
+  }
+>
+  <styled.div
+    bg="red"
+    color="white"
+    p={2}
+  >
+    <div
+      className="sc-AxjAm bwuNzm"
+      color="white"
+    >
+      <styled.span
+        fontSize={2}
+      >
+        <span
+          className="sc-AxirZ bCWNZw"
+          fontSize={2}
+        >
+          Storybook Addon Matrix Error
+        </span>
+      </styled.span>
+      <ul>
+        <li
+          key="Default export component must be present"
+        >
+          <styled.span>
+            <span
+              className="sc-AxirZ HanLJ"
+            >
+              Default export component must be present
+            </span>
+          </styled.span>
+        </li>
+      </ul>
+    </div>
+  </styled.div>
+</Component>
+`;

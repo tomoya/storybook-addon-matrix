@@ -33,4 +33,18 @@ describe('addon Matrix', () => {
     });
     expect(mount(Matrix)).toMatchSnapshot();
   });
+
+  it('should return error when component is not exist', () => {
+    const Matrix = withMatrix()(storyFn, {
+      parameters: {
+        matrix: {
+          pattern: {
+            title: [undefined, 'title pattern 1'],
+            text: ['text pattern 1', 'text pattern 2'],
+          },
+        },
+      },
+    });
+    expect(mount(Matrix)).toMatchSnapshot();
+  });
 });
