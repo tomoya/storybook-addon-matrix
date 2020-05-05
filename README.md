@@ -21,3 +21,69 @@ Storybook addon for rendering components with a matrix of props.
 ```sh
 npm i storybook-addon-matrix
 ```
+
+![storybook-addon-matrix image](./assets/screenshot.png)
+
+## Usage
+
+Globally
+
+```js
+// .storybook/preview.js
+import { addDecorator } from '@storybook/react';
+import { withMatrix } from 'storybook-addon-matrix';
+
+addDecorator(withMatrix);
+
+// Your.stories.tsx
+import * as React from 'react';
+import { Box } from './Box';
+
+export default {
+  title: 'Box',
+  component: Box,            // Must be present
+  parameters: {
+    matrix: {                // Parameter name is matrix
+      pattern: {             // Let you write your matrix pattern
+        bg: ['white', ...],  // Format is key: [value1, value2, ...]
+        width: [undefined, ...],
+      },
+    },
+  },
+};
+
+export const Basic = () => <Box>TEXT</Box>;
+```
+
+Or individual
+
+```js
+// Your.stories.tsx
+import * as React from 'react';
+import { withMatrix } from 'storybook-addon-matrix';
+import { Box } from './Box';
+
+export default {
+  title: 'Box',
+  component: Box,
+  decorators: [withMatrix],
+  parameters: {
+    matrix: {
+      pattern: {
+        bg: ['white', 'blue', 'red', 'yellow'],
+        width: [undefined, '50%', 256],
+        p: [1, 2, 3],
+      },
+    },
+  },
+};
+```
+
+Do you want to more info? We have an [example](https://github.com/tomoya/storybook-addon-matrix/tree/master/example)! Please let you try it.
+
+```sh
+$ git clone https://github.com/tomoya/storybook-addon-matrix.git
+$ cd ./storybook-addon-matrix/example
+$ yarn install
+$ yarn start
+```
