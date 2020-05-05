@@ -3,6 +3,7 @@
 .github/
 .log/
 __mocks__/
+assets/
 example/
 node_modules/
 scripts/
