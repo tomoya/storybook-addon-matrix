@@ -34,6 +34,21 @@ describe('addon Matrix', () => {
     expect(mount(Matrix)).toMatchSnapshot();
   });
 
+  it('should render <Matrix /> with backgroundColor', () => {
+    const Matrix = withMatrix()(storyFn, {
+      parameters: {
+        component: BaseComponent,
+        matrix: {
+          pattern: {
+            title: ['title with background'],
+          },
+          backgroundColor: 'black',
+        },
+      },
+    });
+    expect(mount(Matrix)).toMatchSnapshot();
+  });
+
   it('should render <Error /> when component is not exist', () => {
     const Matrix = withMatrix()(storyFn, {
       parameters: {

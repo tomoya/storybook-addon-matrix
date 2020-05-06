@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-magic-numbers */
 import * as React from 'react';
+import { BackgroundColorProps } from 'styled-system';
 import { Box } from '../Box';
 import { Text, OverflowWrapText } from '../Text';
 import { Flex } from '../Flex';
@@ -9,9 +10,15 @@ export type MatrixProps = {
   component: React.ElementType;
   propsPattern: any[];
   originalProps: React.Props<any>;
+  backgroundColor: BackgroundColorProps['backgroundColor'];
 };
 
-export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, originalProps }) => {
+export const Matrix: React.FC<MatrixProps> = ({
+  component,
+  propsPattern,
+  backgroundColor,
+  originalProps,
+}) => {
   const propsCombinations = createPropsCombinations(propsPattern);
   const totalCombinations = propsCombinations.length;
   const Component = component;
@@ -25,6 +32,7 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
           borderRadius={4}
           width={3 / 10}
           position="relative"
+          backgroundColor={backgroundColor}
         >
           <Box bg="rgb(246, 249, 252)" p={2} width={1 / 3}>
             {Object.entries(props).map(([key, value]) => (
@@ -43,7 +51,7 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
               </Box>
             ))}
           </Box>
-          <Box m={2} mb={4} overflow="hidden" width={2 / 3}>
+          <Box p={2} pb={4} overflow="hidden" width={2 / 3}>
             <Component {...originalProps} {...props} />
           </Box>
           <Box position="absolute" bottom="0" right="0" p={2}>
