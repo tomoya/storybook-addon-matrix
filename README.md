@@ -22,6 +22,8 @@ Storybook addon for rendering components with a matrix of props.
 npm i storybook-addon-matrix
 ```
 
+View demo: https://storybook-addon-matrix.now.sh/
+
 ![storybook-addon-matrix image](./assets/screenshot.png)
 
 ## Usage
