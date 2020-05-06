@@ -55,7 +55,7 @@ export const Matrix: React.FC<MatrixProps> = ({
                 </Box>
               ))}
             </Box>
-            <Box p={2} pb={4} overflow="hidden" width={2 / 3}>
+            <Box p={2} pb={4} overflowX="scroll" width={2 / 3}>
               <Component {...originalProps} {...props} />
             </Box>
             <a href={`#${uniqueId}--${no}`}>
