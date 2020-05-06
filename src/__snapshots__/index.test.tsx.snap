@@ -345,14 +345,13 @@ Array [
               </div>
             </Styled(div)>
             <Styled(div)
-              overflow="hidden"
+              overflowX="scroll"
               p={2}
               pb={4}
               width={0.6666666666666666}
             >
               <div
-                className="css-1n7wfd6"
-                overflow="hidden"
+                className="css-p4w7s8"
                 width={0.6666666666666666}
               >
                 <BaseComponent
@@ -521,14 +520,13 @@ Array [
               </div>
             </Styled(div)>
             <Styled(div)
-              overflow="hidden"
+              overflowX="scroll"
               p={2}
               pb={4}
               width={0.6666666666666666}
             >
               <div
-                className="css-1n7wfd6"
-                overflow="hidden"
+                className="css-p4w7s8"
                 width={0.6666666666666666}
               >
                 <BaseComponent
@@ -701,14 +699,13 @@ Array [
               </div>
             </Styled(div)>
             <Styled(div)
-              overflow="hidden"
+              overflowX="scroll"
               p={2}
               pb={4}
               width={0.6666666666666666}
             >
               <div
-                className="css-1n7wfd6"
-                overflow="hidden"
+                className="css-p4w7s8"
                 width={0.6666666666666666}
               >
                 <BaseComponent
@@ -877,14 +874,13 @@ Array [
               </div>
             </Styled(div)>
             <Styled(div)
-              overflow="hidden"
+              overflowX="scroll"
               p={2}
               pb={4}
               width={0.6666666666666666}
             >
               <div
-                className="css-1n7wfd6"
-                overflow="hidden"
+                className="css-p4w7s8"
                 width={0.6666666666666666}
               >
                 <BaseComponent
@@ -1066,14 +1062,13 @@ Array [
               </div>
             </Styled(div)>
             <Styled(div)
-              overflow="hidden"
+              overflowX="scroll"
               p={2}
               pb={4}
               width={0.6666666666666666}
             >
               <div
-                className="css-1n7wfd6"
-                overflow="hidden"
+                className="css-p4w7s8"
                 width={0.6666666666666666}
               >
                 <BaseComponent
