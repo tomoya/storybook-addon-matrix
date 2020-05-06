@@ -20,7 +20,7 @@ export type BoxProps = LayoutProps &
   ColorProps &
   BorderProps &
   ShadowProps &
-  PositionProps;
+  PositionProps & { id?: string };
 
 export const Box: React.FC<BoxProps> = styled.div`
   ${color}
