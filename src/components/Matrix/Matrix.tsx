@@ -33,7 +33,12 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
                   <Text fontWeight="bold" color="rgba(51, 51, 51, 0.75)">
                     {key}
                   </Text>
-                  : <Text color="rgba(51, 51, 51, 0.75)">{`${value}`}</Text>
+                  :{' '}
+                  <Text
+                    color={
+                      value === undefined ? 'rgba(51, 51, 51, 0.25)' : 'rgba(51, 51, 51, 0.75)'
+                    }
+                  >{`${value}`}</Text>
                 </Box>
               </Box>
             ))}
