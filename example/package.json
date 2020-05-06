@@ -15,7 +15,7 @@
     "@storybook/react": "5.3.18",
     "@types/styled-system": "5.1.9",
     "babel-loader": "8.1.0",
-    "storybook-addon-matrix": "1.4.0",
+    "storybook-addon-matrix": "1.5.0",
     "ts-loader": "7.0.2",
     "typescript": "3.8.3"
   },
