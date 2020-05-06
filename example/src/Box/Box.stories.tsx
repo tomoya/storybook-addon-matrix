@@ -8,6 +8,7 @@ export default {
     matrix: {
       pattern: {
         bg: ['white', 'blue', 'red', 'yellow'],
+        bool: [true, false],
         width: [1, '50%', 256],
         p: [undefined, 2, 3],
       },
