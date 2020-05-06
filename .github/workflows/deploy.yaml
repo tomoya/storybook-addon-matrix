@@ -1,0 +1,18 @@
+name: Deploy
+on: push
+jobs:
+  deploy:
+    name: Deploy Demo
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create dummy file
+        run: touch ./example/.storybook/storybook-addon-matrix
+      - uses: amondnet/now-deployment@v2
+        with:
+          zeit-token: ${{ secrets.ZEIT_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          now-args: './example --prod'
+          now-org-id: ${{ secrets.ORG_ID}}
+          now-project-id: ${{ secrets.PROJECT_ID}}
