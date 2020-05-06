@@ -7,7 +7,7 @@ jobs:
   deploy:
     name: Deploy Demo
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v2
       - name: Create dummy file
