@@ -50,6 +50,7 @@ export default {
         bg: ['white', ...],  // Format is key: [value1, value2, ...]
         width: [undefined, ...],
       },
+      // backgroundColor: 'rgba(0,0,0,0.7)', // Optional: If you want to change backgournd color
     },
   },
 };
