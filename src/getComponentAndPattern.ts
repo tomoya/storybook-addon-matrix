@@ -7,6 +7,7 @@ type CoponentAndPattern = {
   errors: ErrorProps['messages'];
   component?: MatrixProps['component'];
   pattern?: MatrixProps['propsPattern'];
+  backgroundColor: MatrixProps['backgroundColor'];
 };
 
 const isObject = (arg: any): boolean => arg && typeof arg === 'object';
@@ -14,7 +15,7 @@ const isObject = (arg: any): boolean => arg && typeof arg === 'object';
 export function getComponentAndPattern({ parameters }: StoryContext): CoponentAndPattern {
   const {
     component,
-    matrix: { pattern },
+    matrix: { pattern, backgroundColor },
   } = parameters;
   const errors: ErrorProps['messages'] = [];
   if (!component) {
@@ -37,11 +38,12 @@ export function getComponentAndPattern({ parameters }: StoryContext): CoponentAn
     errors.push('Parameter pattern value must be Array');
   }
   if (errors.length !== 0) {
-    return { errors };
+    return { errors, backgroundColor };
   }
   return {
     errors,
     component,
     pattern,
+    backgroundColor,
   };
 }

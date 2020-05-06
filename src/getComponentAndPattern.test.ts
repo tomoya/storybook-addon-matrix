@@ -21,10 +21,31 @@ describe('getComponentAndPattern', () => {
         },
       },
     };
-    const { errors, component, pattern } = getComponentAndPattern(context);
+    const { errors, component, pattern, backgroundColor } = getComponentAndPattern(context);
     expect(errors).toEqual([]);
     expect(component).toEqual(ComponentMock);
     expect(pattern).toEqual(testPattern);
+    expect(backgroundColor).toEqual(undefined);
+  });
+
+  test('return component, pattern and backgroundColor when no error', () => {
+    const context: StoryContext = {
+      id: 'id',
+      name: 'name',
+      kind: 'kind',
+      parameters: {
+        component: ComponentMock,
+        matrix: {
+          pattern: testPattern,
+          backgroundColor: '#eee',
+        },
+      },
+    };
+    const { errors, component, pattern, backgroundColor } = getComponentAndPattern(context);
+    expect(errors).toEqual([]);
+    expect(component).toEqual(ComponentMock);
+    expect(pattern).toEqual(testPattern);
+    expect(backgroundColor).toEqual('#eee');
   });
 
   test('return errors when comonent is not provided', () => {
@@ -38,10 +59,11 @@ describe('getComponentAndPattern', () => {
         },
       },
     };
-    const { errors, component, pattern } = getComponentAndPattern(context);
+    const { errors, component, pattern, backgroundColor } = getComponentAndPattern(context);
     expect(errors).toEqual(['Default export component must be present']);
     expect(component).toEqual(undefined);
     expect(pattern).toEqual(undefined);
+    expect(backgroundColor).toEqual(undefined);
   });
 
   test('return errors when pattern is not provided', () => {
@@ -54,10 +76,11 @@ describe('getComponentAndPattern', () => {
         matrix: {},
       },
     };
-    const { errors, component, pattern } = getComponentAndPattern(context);
+    const { errors, component, pattern, backgroundColor } = getComponentAndPattern(context);
     expect(errors).toEqual(['Parameter pattern must be present']);
     expect(component).toEqual(undefined);
     expect(pattern).toEqual(undefined);
+    expect(backgroundColor).toEqual(undefined);
   });
 
   test('return errors when pattern is not object', () => {
@@ -72,10 +95,11 @@ describe('getComponentAndPattern', () => {
         },
       },
     };
-    const { errors, component, pattern } = getComponentAndPattern(context);
+    const { errors, component, pattern, backgroundColor } = getComponentAndPattern(context);
     expect(errors).toEqual(['Parameter pattern must be Object']);
     expect(component).toEqual(undefined);
     expect(pattern).toEqual(undefined);
+    expect(backgroundColor).toEqual(undefined);
   });
 
   test('return errors when pattern is empty', () => {
@@ -90,10 +114,11 @@ describe('getComponentAndPattern', () => {
         },
       },
     };
-    const { errors, component, pattern } = getComponentAndPattern(context);
+    const { errors, component, pattern, backgroundColor } = getComponentAndPattern(context);
     expect(errors).toEqual(['Parameter pattern must not be empty']);
     expect(component).toEqual(undefined);
     expect(pattern).toEqual(undefined);
+    expect(backgroundColor).toEqual(undefined);
   });
 
   test('return errors when pattern value is not array', () => {
@@ -111,10 +136,11 @@ describe('getComponentAndPattern', () => {
         },
       },
     };
-    const { errors, component, pattern } = getComponentAndPattern(context);
+    const { errors, component, pattern, backgroundColor } = getComponentAndPattern(context);
     expect(errors).toEqual(['Parameter pattern value must be Array']);
     expect(component).toEqual(undefined);
     expect(pattern).toEqual(undefined);
+    expect(backgroundColor).toEqual(undefined);
   });
 
   test('return errors when component and pattern are not provided', () => {
@@ -126,12 +152,13 @@ describe('getComponentAndPattern', () => {
         matrix: {},
       },
     };
-    const { errors, component, pattern } = getComponentAndPattern(context);
+    const { errors, component, pattern, backgroundColor } = getComponentAndPattern(context);
     expect(errors).toEqual([
       'Default export component must be present',
       'Parameter pattern must be present',
     ]);
     expect(component).toEqual(undefined);
     expect(pattern).toEqual(undefined);
+    expect(backgroundColor).toEqual(undefined);
   });
 });
