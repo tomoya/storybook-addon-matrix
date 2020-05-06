@@ -344,11 +344,12 @@ Array [
             </Styled(div)>
             <Styled(div)
               m={2}
+              mb={4}
               overflow="hidden"
               width={0.6666666666666666}
             >
               <div
-                className="css-1aj4rp"
+                className="css-1cw6mwz"
                 overflow="hidden"
                 width={0.6666666666666666}
               >
@@ -507,11 +508,12 @@ Array [
             </Styled(div)>
             <Styled(div)
               m={2}
+              mb={4}
               overflow="hidden"
               width={0.6666666666666666}
             >
               <div
-                className="css-1aj4rp"
+                className="css-1cw6mwz"
                 overflow="hidden"
                 width={0.6666666666666666}
               >
@@ -674,11 +676,12 @@ Array [
             </Styled(div)>
             <Styled(div)
               m={2}
+              mb={4}
               overflow="hidden"
               width={0.6666666666666666}
             >
               <div
-                className="css-1aj4rp"
+                className="css-1cw6mwz"
                 overflow="hidden"
                 width={0.6666666666666666}
               >
@@ -837,11 +840,12 @@ Array [
             </Styled(div)>
             <Styled(div)
               m={2}
+              mb={4}
               overflow="hidden"
               width={0.6666666666666666}
             >
               <div
-                className="css-1aj4rp"
+                className="css-1cw6mwz"
                 overflow="hidden"
                 width={0.6666666666666666}
               >

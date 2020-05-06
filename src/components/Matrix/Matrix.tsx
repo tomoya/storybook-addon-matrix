@@ -43,7 +43,7 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
               </Box>
             ))}
           </Box>
-          <Box m={2} overflow="hidden" width={2 / 3}>
+          <Box m={2} mb={4} overflow="hidden" width={2 / 3}>
             <Component {...originalProps} {...props} />
           </Box>
           <Box position="absolute" bottom="0" right="0" p={2}>
