@@ -16,7 +16,7 @@
     "url": "https://github.com/tomoya/storybook-addon-matrix.git"
   },
   "scripts": {
-    "prepublish": "yarn build",
+    "prepare": "yarn build",
     "build": "rimraf dist && tsc",
     "test": "jest",
     "lint": "eslint --cache --ext .js,.ts,.tsx ./"
