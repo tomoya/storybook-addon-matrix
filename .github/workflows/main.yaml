@@ -4,7 +4,7 @@ jobs:
   build-lint-test:
     name: Build Lint Test
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
