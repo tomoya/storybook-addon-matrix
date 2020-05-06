@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-magic-numbers */
 import * as React from 'react';
 import { Box } from '../Box';
-import { Text } from '../Text';
+import { Text, OverflowWrapText } from '../Text';
 import { Flex } from '../Flex';
 import { createPropsCombinations } from '../../createPropsCombinations';
 
@@ -33,7 +33,12 @@ export const Matrix: React.FC<MatrixProps> = ({ component, propsPattern, origina
                   <Text fontWeight="bold" color="rgba(51, 51, 51, 0.75)">
                     {key}
                   </Text>
-                  : <Text color="rgba(51, 51, 51, 0.75)">{value ?? 'undefined'}</Text>
+                  :{' '}
+                  <OverflowWrapText
+                    color={
+                      value === undefined ? 'rgba(51, 51, 51, 0.25)' : 'rgba(51, 51, 51, 0.75)'
+                    }
+                  >{`${value}`}</OverflowWrapText>
                 </Box>
               </Box>
             ))}

@@ -278,14 +278,15 @@ Array [
                             title
                           </span>
                         </Styled(span)>
-                        : 
+                        :
+                         
                         <Styled(span)
-                          color="rgba(51, 51, 51, 0.75)"
+                          color="rgba(51, 51, 51, 0.25)"
                           fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                         >
                           <span
-                            className="css-mtjg0i"
-                            color="rgba(51, 51, 51, 0.75)"
+                            className="css-12p2gsl"
+                            color="rgba(51, 51, 51, 0.25)"
                             fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
                             undefined
@@ -321,13 +322,14 @@ Array [
                             text
                           </span>
                         </Styled(span)>
-                        : 
+                        :
+                         
                         <Styled(span)
                           color="rgba(51, 51, 51, 0.75)"
                           fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                         >
                           <span
-                            className="css-mtjg0i"
+                            className="css-8v37fk"
                             color="rgba(51, 51, 51, 0.75)"
                             fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
@@ -439,13 +441,14 @@ Array [
                             title
                           </span>
                         </Styled(span)>
-                        : 
+                        :
+                         
                         <Styled(span)
                           color="rgba(51, 51, 51, 0.75)"
                           fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                         >
                           <span
-                            className="css-mtjg0i"
+                            className="css-8v37fk"
                             color="rgba(51, 51, 51, 0.75)"
                             fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
@@ -482,13 +485,14 @@ Array [
                             text
                           </span>
                         </Styled(span)>
-                        : 
+                        :
+                         
                         <Styled(span)
                           color="rgba(51, 51, 51, 0.75)"
                           fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                         >
                           <span
-                            className="css-mtjg0i"
+                            className="css-8v37fk"
                             color="rgba(51, 51, 51, 0.75)"
                             fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
@@ -604,14 +608,15 @@ Array [
                             title
                           </span>
                         </Styled(span)>
-                        : 
+                        :
+                         
                         <Styled(span)
-                          color="rgba(51, 51, 51, 0.75)"
+                          color="rgba(51, 51, 51, 0.25)"
                           fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                         >
                           <span
-                            className="css-mtjg0i"
-                            color="rgba(51, 51, 51, 0.75)"
+                            className="css-12p2gsl"
+                            color="rgba(51, 51, 51, 0.25)"
                             fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
                             undefined
@@ -647,13 +652,14 @@ Array [
                             text
                           </span>
                         </Styled(span)>
-                        : 
+                        :
+                         
                         <Styled(span)
                           color="rgba(51, 51, 51, 0.75)"
                           fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                         >
                           <span
-                            className="css-mtjg0i"
+                            className="css-8v37fk"
                             color="rgba(51, 51, 51, 0.75)"
                             fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
@@ -765,13 +771,14 @@ Array [
                             title
                           </span>
                         </Styled(span)>
-                        : 
+                        :
+                         
                         <Styled(span)
                           color="rgba(51, 51, 51, 0.75)"
                           fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                         >
                           <span
-                            className="css-mtjg0i"
+                            className="css-8v37fk"
                             color="rgba(51, 51, 51, 0.75)"
                             fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
@@ -808,13 +815,14 @@ Array [
                             text
                           </span>
                         </Styled(span)>
-                        : 
+                        :
+                         
                         <Styled(span)
                           color="rgba(51, 51, 51, 0.75)"
                           fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                         >
                           <span
-                            className="css-mtjg0i"
+                            className="css-8v37fk"
                             color="rgba(51, 51, 51, 0.75)"
                             fontFamily="\\"Nunito Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif"
                           >
