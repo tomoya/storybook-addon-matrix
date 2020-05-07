@@ -99,6 +99,18 @@ $ yarn start
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
+## ToDO
+
+- [ ] Hide base component option
+- [ ] Global options to use `addParameters()`
+  - [ ] Default backgournd color
+  - [ ] Hide base component
+  - [ ] Number of columns
+- [ ] Theme compatibility
+- [ ] Show source
+- [ ] Release automation
+- [ ] Changelog
+
 ## License
 
 [MIT License](https://github.com/tomoya/storybook-addon-matrix/blob/master/LICENSE)
