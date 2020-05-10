@@ -1,0 +1,19 @@
+name-template: 'v$NEXT_PATCH_VERSION'
+tag-template: 'v$NEXT_PATCH_VERSION'
+template: |
+  # What's Changed
+
+  $CHANGES
+categories:
+  - title: 'New'
+    label: 'Type: Feature'
+  - title: 'Bug Fixes'
+    label: 'Type: Bug'
+  - title: 'Maintenance'
+    label: 'Type: Maintenance'
+  - title: 'Documentation'
+    label: 'Type: Documentation'
+  - title: 'Dependency Updates'
+    label: 'Type: Dependencies'
+  - title: 'Breaking Change'
+    label: 'Type: Breaking Change'
