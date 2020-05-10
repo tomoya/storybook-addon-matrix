@@ -1,6 +1,7 @@
 {
   "extends": ["config:base"],
   "rangeStrategy": "pin",
+  "labels": ["Type: Dependencies"],
   "packageRules": [
     {
       "depTypeList": ["peerDependencies"],
