@@ -1,8 +1,9 @@
 name-template: 'v$NEXT_PATCH_VERSION'
 tag-template: 'v$NEXT_PATCH_VERSION'
 template: |
-  $CHANGES
+  # What's Changed
 
+  $CHANGES
 categories:
   - title: 'New'
     label: 'Type: Feature'
