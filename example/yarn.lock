@@ -7285,10 +7285,10 @@ store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.11.1.tgz#118645f1b5e38d20604852362183955e360a5893"
   integrity sha512-llZqXAXjG2E4FvWsZxFmBDfh6kqQuGFZm64TX23qW02Hf4dyElhDEbYx1IIVTEMKWrrDnDA9oqOjY8WHo2NgcA==
 
-storybook-addon-matrix@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/storybook-addon-matrix/-/storybook-addon-matrix-1.5.0.tgz#661c207d52af6039d0afce49b44e13c1de3ff5fd"
-  integrity sha512-/yhI5sYcvPnxK0/H66HjfvXMrX08+zOEPots5x9BXZFbTDKSD35xKoyPBFbbNmzOi2cq2LYdce/soU6a9VimuA==
+storybook-addon-matrix@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/storybook-addon-matrix/-/storybook-addon-matrix-1.5.1.tgz#ac184ba5c2720e915a579683bd5821d69a9be7bd"
+  integrity sha512-hKkorSloqEL6Ts3EwjdMbPFwI6WB//cLXPWHQv3H48DJMgtsTYJOdPL/n/8q9sBJrs0Rmuf1pHyPPbbQYIAdSQ==
   dependencies:
     "@emotion/core" "10.0.28"
     "@emotion/styled" "10.0.27"
@@ -7729,10 +7729,10 @@ ts-dedent@^1.1.0:
   resolved "https://registry.yarnpkg.com/ts-dedent/-/ts-dedent-1.1.1.tgz#68fad040d7dbd53a90f545b450702340e17d18f3"
   integrity sha512-UGTRZu1evMw4uTPyYF66/KFd22XiU+jMaIuHrkIHQ2GivAXVlLV0v/vHrpOuTRf9BmpNHi/SO7Vd0rLu0y57jg==
 
-ts-loader@7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-7.0.3.tgz#1ba06fd3dae612ecf8b952f89145f9ac7489805f"
-  integrity sha512-BXAHfPjm3J//20ibuI30M+xgLpdIng68p2H952QqbbmDk7SW72HV42k9Gop7rMxuHvrXWjazWhKuyr9D9kKe3A==
+ts-loader@7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-7.0.4.tgz#5d9b95227de5afb91fdd9668f8920eb193cfe0cc"
+  integrity sha512-5du6OQHl+4ZjO4crEyoYUyWSrmmo7bAO+inkaILZ68mvahqrfoa4nn0DRmpQ4ruT4l+cuJCgF0xD7SBIyLeeow==
   dependencies:
     chalk "^2.3.0"
     enhanced-resolve "^4.0.0"
