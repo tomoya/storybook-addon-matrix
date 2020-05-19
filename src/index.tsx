@@ -3,7 +3,7 @@ import { makeDecorator } from '@storybook/addons';
 import { Matrix } from './components/Matrix';
 import { Box } from './components/Box';
 import { Error } from './components/Error';
-import { getComponentAndPattern } from './getComponentAndPattern';
+import { getComponentAndPattern } from './services/getComponentAndPattern';
 
 export const withMatrix = makeDecorator({
   name: 'withMatrix',

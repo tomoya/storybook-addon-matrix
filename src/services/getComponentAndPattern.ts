@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-magic-numbers */
 import { StoryContext } from '@storybook/addons';
-import { ErrorProps } from './components/Error';
-import { MatrixProps } from './components/Matrix';
+import { ErrorProps } from '../components/Error';
+import { MatrixProps } from '../components/Matrix';
 
 type CoponentAndPattern = {
   errors: ErrorProps['messages'];

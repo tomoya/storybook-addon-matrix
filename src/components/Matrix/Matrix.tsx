@@ -4,7 +4,7 @@ import { BackgroundColorProps } from 'styled-system';
 import { Box } from '../Box';
 import { Text, OverflowWrapText } from '../Text';
 import { Flex } from '../Flex';
-import { createPropsCombinations } from '../../createPropsCombinations';
+import { createPropsCombinations } from '../../services/createPropsCombinations';
 
 export type MatrixProps = {
   component: React.ElementType;
