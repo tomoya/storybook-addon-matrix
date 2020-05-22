@@ -1,7 +1,7 @@
 import { StoryContext } from '@storybook/addons';
 import { MatrixProps } from '../components/Matrix';
 
-type Parameters = {
+export type Parameters = {
   component?: MatrixProps['component'];
   pattern?: MatrixProps['matrixPattern'];
   backgroundColor: MatrixProps['backgroundColor'];
