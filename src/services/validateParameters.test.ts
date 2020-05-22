@@ -16,8 +16,7 @@ describe('validateParameters', () => {
         backgroundColor: undefined,
       },
     };
-    const { validity, errors } = validateParameters(parameters);
-    expect(validity).toEqual(true);
+    const { errors } = validateParameters(parameters);
     expect(errors).toEqual([]);
   });
 
@@ -29,8 +28,7 @@ describe('validateParameters', () => {
         backgroundColor: '#fff',
       },
     };
-    const { validity, errors } = validateParameters(parameters);
-    expect(validity).toEqual(true);
+    const { errors } = validateParameters(parameters);
     expect(errors).toEqual([]);
   });
 
@@ -42,8 +40,7 @@ describe('validateParameters', () => {
         backgroundColor: '#fff',
       },
     };
-    const { validity, errors } = validateParameters(parameters);
-    expect(validity).toEqual(false);
+    const { errors } = validateParameters(parameters);
     expect(errors).toEqual(['Default export component must be present']);
   });
 
@@ -55,8 +52,7 @@ describe('validateParameters', () => {
         backgroundColor: undefined,
       },
     };
-    const { validity, errors } = validateParameters(parameters);
-    expect(validity).toEqual(false);
+    const { errors } = validateParameters(parameters);
     expect(errors).toEqual(['Parameter pattern must be present']);
   });
 
@@ -68,8 +64,7 @@ describe('validateParameters', () => {
         backgroundColor: undefined,
       },
     };
-    const { validity, errors } = validateParameters(parameters);
-    expect(validity).toEqual(false);
+    const { errors } = validateParameters(parameters);
     expect(errors).toEqual(['Parameter pattern must be Object']);
   });
 
@@ -81,8 +76,7 @@ describe('validateParameters', () => {
         backgroundColor: undefined,
       },
     };
-    const { validity, errors } = validateParameters(parameters);
-    expect(validity).toEqual(false);
+    const { errors } = validateParameters(parameters);
     expect(errors).toEqual(['Parameter pattern must not be empty']);
   });
 
@@ -97,8 +91,7 @@ describe('validateParameters', () => {
         backgroundColor: undefined,
       },
     };
-    const { validity, errors } = validateParameters(parameters);
-    expect(validity).toEqual(false);
+    const { errors } = validateParameters(parameters);
     expect(errors).toEqual(['Parameter pattern value must be Array']);
   });
 
@@ -110,8 +103,7 @@ describe('validateParameters', () => {
         backgroundColor: undefined,
       },
     };
-    const { validity, errors } = validateParameters(parameters);
-    expect(validity).toEqual(false);
+    const { errors } = validateParameters(parameters);
     expect(errors).toEqual([
       'Default export component must be present',
       'Parameter pattern must be present',

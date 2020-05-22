@@ -4,7 +4,6 @@ import { ErrorProps } from '../components/Error';
 
 type ValidateParameters = {
   errors: ErrorProps['messages'];
-  validity: Boolean;
 };
 
 type Parameters = {
@@ -20,7 +19,6 @@ const isObject = (arg: any): boolean => typeof arg === 'object';
 export function validateParameters({ component, matrix }: Parameters): ValidateParameters {
   const { pattern } = matrix;
   const errors: ErrorProps['messages'] = [];
-  let validity = false;
   if (!component) {
     errors.push('Default export component must be present');
   }
@@ -41,11 +39,7 @@ export function validateParameters({ component, matrix }: Parameters): ValidateP
   ) {
     errors.push('Parameter pattern value must be Array');
   }
-  if (errors.length === 0) {
-    validity = true;
-  }
   return {
     errors,
-    validity,
   };
 }
