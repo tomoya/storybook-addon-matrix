@@ -61,20 +61,4 @@ describe('getComponentAndPattern', () => {
     expect(pattern).toEqual(undefined);
     expect(backgroundColor).toEqual('#eee');
   });
-
-  test('returns component', () => {
-    const context: StoryContext = {
-      id: 'id',
-      name: 'name',
-      kind: 'kind',
-      parameters: {
-        component: ComponentMock,
-        magrix: {},
-      },
-    };
-    const { component, pattern, backgroundColor } = getParameters(context);
-    expect(component).toEqual(ComponentMock);
-    expect(pattern).toEqual(undefined);
-    expect(backgroundColor).toEqual(undefined);
-  });
 });
