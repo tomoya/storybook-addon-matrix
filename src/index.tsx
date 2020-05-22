@@ -3,7 +3,7 @@ import { makeDecorator } from '@storybook/addons';
 import { Matrix } from './components/Matrix';
 import { Box } from './components/Box';
 import { Error } from './components/Error';
-import { getComponentAndPattern } from './services/getComponentAndPattern';
+import { getParameters } from './services/getParameters';
 
 export const withMatrix = makeDecorator({
   name: 'withMatrix',
@@ -11,7 +11,7 @@ export const withMatrix = makeDecorator({
   skipIfNoParametersOrOptions: true,
   allowDeprecatedUsage: true,
   wrapper: (getStory, context) => {
-    const { errors, component, pattern, backgroundColor } = getComponentAndPattern(context);
+    const { errors, component, pattern, backgroundColor } = getParameters(context);
     if (!component || !pattern) {
       return <Error messages={errors} />;
     }
