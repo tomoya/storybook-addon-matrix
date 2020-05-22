@@ -2,7 +2,7 @@ import { StoryContext } from '@storybook/addons';
 import { getParameters } from './getParameters';
 import { ComponentMock } from '../__mocks__/ComponentMock';
 
-describe('getComponentAndPattern', () => {
+describe('getParameters', () => {
   const testPattern = {
     color: ['black', 'blue'],
     p: [1, 2],
