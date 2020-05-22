@@ -11,8 +11,10 @@ describe('validateParameters', () => {
   test('returns true when valid component and pattern parameters', () => {
     const parameters = {
       component: ComponentMock,
-      pattern: testPattern,
-      backgroundColor: undefined,
+      matrix: {
+        pattern: testPattern,
+        backgroundColor: undefined,
+      },
     };
     const { validity, errors } = validateParameters(parameters);
     expect(validity).toEqual(true);
@@ -22,8 +24,10 @@ describe('validateParameters', () => {
   test('returns true when valid component, pattern, and backgroundColor parameters', () => {
     const parameters = {
       component: ComponentMock,
-      pattern: testPattern,
-      backgroundColor: '#fff',
+      matrix: {
+        pattern: testPattern,
+        backgroundColor: '#fff',
+      },
     };
     const { validity, errors } = validateParameters(parameters);
     expect(validity).toEqual(true);
@@ -33,8 +37,10 @@ describe('validateParameters', () => {
   test('returns errors when comonent is not provided', () => {
     const parameters = {
       component: undefined,
-      pattern: testPattern,
-      backgroundColor: '#fff',
+      matrix: {
+        pattern: testPattern,
+        backgroundColor: '#fff',
+      },
     };
     const { validity, errors } = validateParameters(parameters);
     expect(validity).toEqual(false);
@@ -44,8 +50,10 @@ describe('validateParameters', () => {
   test('returns errors when pattern is not provided', () => {
     const parameters = {
       component: ComponentMock,
-      pattern: undefined,
-      backgroundColor: undefined,
+      matrix: {
+        pattern: undefined,
+        backgroundColor: undefined,
+      },
     };
     const { validity, errors } = validateParameters(parameters);
     expect(validity).toEqual(false);
@@ -55,8 +63,10 @@ describe('validateParameters', () => {
   test('returns errors when pattern is not object', () => {
     const parameters = {
       component: ComponentMock,
-      pattern: 'string' as Object,
-      backgroundColor: undefined,
+      matrix: {
+        pattern: 'string' as Object,
+        backgroundColor: undefined,
+      },
     };
     const { validity, errors } = validateParameters(parameters);
     expect(validity).toEqual(false);
@@ -66,8 +76,10 @@ describe('validateParameters', () => {
   test('returns errors when pattern is empty', () => {
     const parameters = {
       component: ComponentMock,
-      pattern: {},
-      backgroundColor: undefined,
+      matrix: {
+        pattern: {},
+        backgroundColor: undefined,
+      },
     };
     const { validity, errors } = validateParameters(parameters);
     expect(validity).toEqual(false);
@@ -77,11 +89,13 @@ describe('validateParameters', () => {
   test('returns errors when pattern value is not array', () => {
     const parameters = {
       component: ComponentMock,
-      pattern: {
-        color: ['string'],
-        fontSize: 'string',
+      matrix: {
+        pattern: {
+          color: ['string'],
+          fontSize: 'string',
+        },
+        backgroundColor: undefined,
       },
-      backgroundColor: undefined,
     };
     const { validity, errors } = validateParameters(parameters);
     expect(validity).toEqual(false);
@@ -91,8 +105,10 @@ describe('validateParameters', () => {
   test('returns errors when component and pattern are not provided', () => {
     const parameters = {
       component: undefined,
-      pattern: undefined,
-      backgroundColor: undefined,
+      matrix: {
+        pattern: undefined,
+        backgroundColor: undefined,
+      },
     };
     const { validity, errors } = validateParameters(parameters);
     expect(validity).toEqual(false);

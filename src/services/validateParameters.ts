@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-magic-numbers */
-import { Parameters } from './getParameters';
+import { MatrixProps } from '../components/Matrix';
 import { ErrorProps } from '../components/Error';
 
 type ValidateParameters = {
@@ -7,9 +7,18 @@ type ValidateParameters = {
   validity: Boolean;
 };
 
+type Parameters = {
+  component?: MatrixProps['component'];
+  matrix: {
+    pattern?: MatrixProps['matrixPattern'];
+    backgroundColor?: MatrixProps['backgroundColor'];
+  };
+};
+
 const isObject = (arg: any): boolean => typeof arg === 'object';
 
-export function validateParameters({ component, pattern }: Parameters): ValidateParameters {
+export function validateParameters({ component, matrix }: Parameters): ValidateParameters {
+  const { pattern } = matrix;
   const errors: ErrorProps['messages'] = [];
   let validity = false;
   if (!component) {
@@ -18,7 +27,7 @@ export function validateParameters({ component, pattern }: Parameters): Validate
   if (!pattern) {
     errors.push('Parameter pattern must be present');
   }
-  if (pattern && typeof pattern !== 'object') {
+  if (pattern && !isObject(pattern)) {
     errors.push('Parameter pattern must be Object');
   }
   if (pattern && isObject(pattern) && Object.keys(pattern).length === 0) {
