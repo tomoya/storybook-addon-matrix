@@ -6,7 +6,7 @@ import { MatrixProps } from '../components/Matrix';
 type CoponentAndPattern = {
   errors: ErrorProps['messages'];
   component?: MatrixProps['component'];
-  pattern?: MatrixProps['propsPattern'];
+  pattern?: MatrixProps['matrixPattern'];
   backgroundColor: MatrixProps['backgroundColor'];
 };
 

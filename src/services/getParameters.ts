@@ -3,7 +3,7 @@ import { MatrixProps } from '../components/Matrix';
 
 type Parameters = {
   component?: MatrixProps['component'];
-  pattern?: MatrixProps['propsPattern'];
+  pattern?: MatrixProps['matrixPattern'];
   backgroundColor: MatrixProps['backgroundColor'];
 };
 
