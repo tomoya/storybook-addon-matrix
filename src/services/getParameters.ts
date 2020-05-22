@@ -8,16 +8,13 @@ export type Parameters = {
 };
 
 export function getParameters({ parameters }: StoryContext): Parameters {
-  const {
-    component,
-    matrix,
-  } = parameters;
+  const { component, matrix } = parameters;
   if (!matrix) {
     return {
       component,
       pattern: undefined,
       backgroundColor: undefined,
-    }
+    };
   }
   const { pattern, backgroundColor } = matrix;
   return {
