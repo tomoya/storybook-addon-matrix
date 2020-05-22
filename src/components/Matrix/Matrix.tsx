@@ -4,22 +4,22 @@ import { BackgroundColorProps } from 'styled-system';
 import { Box } from '../Box';
 import { Text, OverflowWrapText } from '../Text';
 import { Flex } from '../Flex';
-import { createPropsCombinations } from '../../createPropsCombinations';
+import { createPropsCombinations } from '../../services/createPropsCombinations';
 
 export type MatrixProps = {
   component: React.ElementType;
-  propsPattern: any[];
+  matrixPattern: object;
   originalProps: React.Props<any>;
   backgroundColor: BackgroundColorProps['backgroundColor'];
 };
 
 export const Matrix: React.FC<MatrixProps> = ({
   component,
-  propsPattern,
+  matrixPattern,
   backgroundColor,
   originalProps,
 }) => {
-  const propsCombinations = createPropsCombinations(propsPattern);
+  const propsCombinations = createPropsCombinations(matrixPattern);
   const totalCombinations = propsCombinations.length;
   const Component = component;
   return (

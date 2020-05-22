@@ -206,8 +206,7 @@ Array [
   </Styled(div)>,
   <Component
     component={[Function]}
-    originalProps={Object {}}
-    propsPattern={
+    matrixPattern={
       Object {
         "text": Array [
           "text pattern 1",
@@ -219,6 +218,7 @@ Array [
         ],
       }
     }
+    originalProps={Object {}}
   >
     <Styled(div)
       display="flex"
@@ -971,14 +971,14 @@ Array [
   <Component
     backgroundColor="black"
     component={[Function]}
-    originalProps={Object {}}
-    propsPattern={
+    matrixPattern={
       Object {
         "title": Array [
           "title with background",
         ],
       }
     }
+    originalProps={Object {}}
   >
     <Styled(div)
       display="flex"
