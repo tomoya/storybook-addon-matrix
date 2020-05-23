@@ -49,6 +49,21 @@ describe('addon Matrix', () => {
     expect(mount(Matrix)).toMatchSnapshot();
   });
 
+  it('should render <Matrix /> with showOriginalL true', () => {
+    const Matrix = withMatrix()(storyFn, {
+      parameters: {
+        component: BaseComponent,
+        matrix: {
+          pattern: {
+            title: ['title with showOriginal'],
+          },
+          showOriginal: true,
+        },
+      },
+    });
+    expect(mount(Matrix)).toMatchSnapshot();
+  });
+
   it('should render <Error /> when component is not exist', () => {
     const Matrix = withMatrix()(storyFn, {
       parameters: {

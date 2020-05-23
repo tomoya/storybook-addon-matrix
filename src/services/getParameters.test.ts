@@ -19,13 +19,15 @@ describe('getParameters', () => {
         matrix: {
           pattern: testPattern,
           backgroundColor: '#eee',
+          showOriginal: true,
         },
       },
     };
-    const { component, pattern, backgroundColor } = getParameters(context);
+    const { component, pattern, backgroundColor, showOriginal } = getParameters(context);
     expect(component).toEqual(ComponentMock);
     expect(pattern).toEqual(testPattern);
     expect(backgroundColor).toEqual('#eee');
+    expect(showOriginal).toEqual(true);
   });
 
   test('returns pattern', () => {
@@ -39,10 +41,11 @@ describe('getParameters', () => {
         },
       },
     };
-    const { component, pattern, backgroundColor } = getParameters(context);
+    const { component, pattern, backgroundColor, showOriginal } = getParameters(context);
     expect(component).toEqual(undefined);
     expect(pattern).toEqual(testPattern);
     expect(backgroundColor).toEqual(undefined);
+    expect(showOriginal).toEqual(false);
   });
 
   test('returns backgroundColor', () => {
@@ -56,9 +59,10 @@ describe('getParameters', () => {
         },
       },
     };
-    const { component, pattern, backgroundColor } = getParameters(context);
+    const { component, pattern, backgroundColor, showOriginal } = getParameters(context);
     expect(component).toEqual(undefined);
     expect(pattern).toEqual(undefined);
     expect(backgroundColor).toEqual('#eee');
+    expect(showOriginal).toEqual(false);
   });
 });
