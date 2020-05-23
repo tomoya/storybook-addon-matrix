@@ -8,6 +8,7 @@ export type Parameters = {
   component?: MatrixProps['component'];
   pattern?: MatrixProps['matrixPattern'];
   backgroundColor: MatrixProps['backgroundColor'];
+  showOriginal: Boolean;
 };
 
 export function getParameters({ parameters }: StoryContext): Parameters {
@@ -19,13 +20,15 @@ export function getParameters({ parameters }: StoryContext): Parameters {
       component,
       pattern: undefined,
       backgroundColor: undefined,
+      showOriginal: false,
     };
   }
-  const { pattern, backgroundColor } = matrix;
+  const { pattern, backgroundColor, showOriginal } = matrix;
   return {
     errors,
     component,
     pattern,
     backgroundColor,
+    showOriginal: showOriginal ?? false,
   };
 }
