@@ -11,7 +11,7 @@ export const withMatrix = makeDecorator({
   skipIfNoParametersOrOptions: true,
   allowDeprecatedUsage: true,
   wrapper: (getStory, context) => {
-    const { errors, component, pattern, backgroundColor } = getParameters(context);
+    const { errors, component, pattern, backgroundColor, showOriginal } = getParameters(context);
     if (!component || !pattern) {
       return <Error messages={errors} />;
     }
@@ -19,7 +19,7 @@ export const withMatrix = makeDecorator({
     const originalProps = storyFn.props;
     return (
       <>
-        <Box mb={3}>{storyFn}</Box>
+        {showOriginal && <Box mb={3}>{storyFn}</Box>}
         <Matrix
           component={component}
           matrixPattern={pattern}
