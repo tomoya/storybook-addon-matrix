@@ -11,6 +11,8 @@ categories:
     label: 'Type: Bug'
   - title: 'Maintenance'
     label: 'Type: Maintenance'
+  - title: 'Refactoring'
+    label: 'Type: Refactoring'
   - title: 'Documentation'
     label: 'Type: Documentation'
   - title: 'Dependency Updates'
