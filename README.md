@@ -51,6 +51,7 @@ export default {
         width: [undefined, ...],
       },
       // backgroundColor: 'rgba(0,0,0,0.7)', // Optional: If you want to change backgournd color
+      // showOriginal: true // Optional: If you want to show original component set to true
     },
   },
 };
@@ -101,10 +102,10 @@ $ yarn start
 
 ## ToDO
 
-- [ ] Hide base component option
-- [ ] Global options to use `addParameters()`
-  - [ ] Default backgournd color
-  - [ ] Hide base component
+- [x] Hide original componen
+- [x] Global options to use `addParameters()`
+  - [x] Default backgournd color
+  - [x] Show original component
   - [ ] Number of columns
 - [ ] Theme compatibility
 - [ ] Show source
