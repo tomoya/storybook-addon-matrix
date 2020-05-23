@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-matrix",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "Storybook addon for rendering components with a matrix of props",
   "keywords": [
     "react",
