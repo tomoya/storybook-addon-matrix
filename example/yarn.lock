@@ -7285,10 +7285,10 @@ store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.11.1.tgz#118645f1b5e38d20604852362183955e360a5893"
   integrity sha512-llZqXAXjG2E4FvWsZxFmBDfh6kqQuGFZm64TX23qW02Hf4dyElhDEbYx1IIVTEMKWrrDnDA9oqOjY8WHo2NgcA==
 
-storybook-addon-matrix@1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/storybook-addon-matrix/-/storybook-addon-matrix-1.5.1.tgz#ac184ba5c2720e915a579683bd5821d69a9be7bd"
-  integrity sha512-hKkorSloqEL6Ts3EwjdMbPFwI6WB//cLXPWHQv3H48DJMgtsTYJOdPL/n/8q9sBJrs0Rmuf1pHyPPbbQYIAdSQ==
+storybook-addon-matrix@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/storybook-addon-matrix/-/storybook-addon-matrix-1.6.0.tgz#b97c537fcaf364d13c507e9c7a3e5f24ef40586c"
+  integrity sha512-2Fc2E3B2oqjWUMil4q5K13wjeH6uK+Ae7Y7647VNu8+qBEcXokAcL6RTc69+63fnXQeLA6ZhZYUjWmhE4NLxhg==
   dependencies:
     "@emotion/core" "10.0.28"
     "@emotion/styled" "10.0.27"
