@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@babel/core": "7.9.6",
-    "@storybook/addons": "5.3.18",
-    "@storybook/react": "5.3.18",
+    "@storybook/addons": "6.0.19",
+    "@storybook/react": "6.0.19",
     "@types/styled-system": "5.1.9",
     "babel-loader": "8.1.0",
     "storybook-addon-matrix": "1.6.0",
