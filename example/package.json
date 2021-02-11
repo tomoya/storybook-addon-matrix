@@ -4,20 +4,20 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "@emotion/core": "10.0.28",
+    "@emotion/core": "10.1.1",
     "@emotion/styled": "10.0.27",
-    "react": "16.13.1",
+    "react": "16.14.0",
     "styled-system": "5.1.5"
   },
   "devDependencies": {
-    "@babel/core": "7.9.6",
-    "@storybook/addons": "5.3.18",
-    "@storybook/react": "5.3.18",
-    "@types/styled-system": "5.1.9",
-    "babel-loader": "8.1.0",
+    "@babel/core": "7.12.13",
+    "@storybook/addons": "5.3.21",
+    "@storybook/react": "5.3.21",
+    "@types/styled-system": "5.1.10",
+    "babel-loader": "8.2.2",
     "storybook-addon-matrix": "1.6.0",
-    "ts-loader": "8.0.1",
-    "typescript": "3.8.3"
+    "ts-loader": "8.0.17",
+    "typescript": "3.9.9"
   },
   "scripts": {
     "start": "start-storybook",
