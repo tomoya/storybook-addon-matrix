@@ -974,10 +974,10 @@
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
 
-"@types/js-combinatorics@0.5.31":
-  version "0.5.31"
-  resolved "https://registry.yarnpkg.com/@types/js-combinatorics/-/js-combinatorics-0.5.31.tgz#a61a3f625009e2e693492c158ac8afb243efecad"
-  integrity sha512-0JGeWYJdHIpX2gttyxqnzpKwK3KmyFZysWI8+fnXdiOo/kEFxDMdo/pwhrtBrHvYgRAsDNJCSQzgA+m8vbHvFw==
+"@types/js-combinatorics@0.5.32":
+  version "0.5.32"
+  resolved "https://registry.yarnpkg.com/@types/js-combinatorics/-/js-combinatorics-0.5.32.tgz#befa3c2b6ea10c45fd8d672f7aa477a79a2601ed"
+  integrity sha512-rSdlsZTJla6sSMrYoXEDklQLDoXCnpHIwzvkTWhjIdk1S42GHQ/QNHRBAzKno0eZ+dORGoJ9tsgB1xH+4DozAA==
 
 "@types/json-schema@^7.0.3":
   version "7.0.4"
