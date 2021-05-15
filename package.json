@@ -52,7 +52,7 @@
     "@emotion/core": "10.0.28",
     "@emotion/styled": "10.0.27",
     "@storybook/addons": "5.3.18",
-    "@types/js-combinatorics": "0.5.31",
+    "@types/js-combinatorics": "0.5.32",
     "@types/styled-system": "5.1.9",
     "js-combinatorics": "0.5.5",
     "react": "16.13.1",
