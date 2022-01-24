@@ -11,8 +11,8 @@ export type Parameters = {
   showOriginal: Boolean;
 };
 
-export function getParameters({ parameters }: StoryContext): Parameters {
-  const { component, matrix } = parameters;
+export function getParameters({ component, parameters }: StoryContext): Parameters {
+  const { matrix } = parameters;
   const { errors } = validateParameters({ component, matrix });
   if (!matrix) {
     return {
