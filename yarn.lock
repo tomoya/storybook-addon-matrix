@@ -3913,10 +3913,10 @@ jest@26.0.1:
     import-local "^3.0.2"
     jest-cli "^26.0.1"
 
-js-combinatorics@0.5.5:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/js-combinatorics/-/js-combinatorics-0.5.5.tgz#78d68a6db24bbd58173ded714deee75bc4335e75"
-  integrity sha512-WglFY9EQvwndNhuJLxxyjnC16649lfZly/G3M3zgQMwcWlJDJ0Jn9niPWeYjnLXwWOEycYVxR2Tk98WLeFkrcw==
+js-combinatorics@1.5.6:
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/js-combinatorics/-/js-combinatorics-1.5.6.tgz#b0fba33e07e39a3c015331d0112b7e0e9d599b0f"
+  integrity sha512-lISWT4U/pKAdi1CGGH6G3EciGr2sRcC6NrYesoXZqw6eOKvz1JxH3dV/WhG9FndYmWkEGQISe4uVLaOUlTTqvg==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
