@@ -22,7 +22,7 @@
     "lint": "eslint --cache --ext .js,.ts,.tsx ./"
   },
   "devDependencies": {
-    "@types/enzyme": "3.10.5",
+    "@types/enzyme": "3.10.12",
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/jest": "26.0.0",
     "@typescript-eslint/eslint-plugin": "2.32.0",
