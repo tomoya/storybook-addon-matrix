@@ -17,7 +17,7 @@
     "babel-loader": "8.1.0",
     "storybook-addon-matrix": "1.6.0",
     "ts-loader": "8.0.1",
-    "typescript": "3.8.3"
+    "typescript": "4.9.3"
   },
   "scripts": {
     "start": "start-storybook",
