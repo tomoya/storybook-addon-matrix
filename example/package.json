@@ -13,7 +13,7 @@
     "@babel/core": "7.9.6",
     "@storybook/addons": "5.3.18",
     "@storybook/react": "5.3.18",
-    "@types/styled-system": "5.1.9",
+    "@types/styled-system": "5.1.22",
     "babel-loader": "8.1.0",
     "storybook-addon-matrix": "1.6.0",
     "ts-loader": "8.0.1",
