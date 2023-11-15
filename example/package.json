@@ -16,7 +16,7 @@
     "@types/styled-system": "5.1.9",
     "babel-loader": "8.1.0",
     "storybook-addon-matrix": "1.6.0",
-    "ts-loader": "8.0.1",
+    "ts-loader": "9.5.1",
     "typescript": "3.8.3"
   },
   "scripts": {
