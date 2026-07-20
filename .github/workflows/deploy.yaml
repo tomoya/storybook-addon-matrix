@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.8.0
       - name: Create dummy file
         run: touch ./example/.storybook/storybook-addon-matrix
-      - uses: amondnet/now-deployment@v2
+      - uses: amondnet/now-deployment@v2.0.3
         with:
           zeit-token: ${{ secrets.ZEIT_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
