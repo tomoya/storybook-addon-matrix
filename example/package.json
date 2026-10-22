@@ -10,7 +10,7 @@
     "styled-system": "5.1.5"
   },
   "devDependencies": {
-    "@babel/core": "7.9.6",
+    "@babel/core": "7.29.6",
     "@storybook/addons": "5.3.18",
     "@storybook/react": "5.3.18",
     "@types/styled-system": "5.1.9",
